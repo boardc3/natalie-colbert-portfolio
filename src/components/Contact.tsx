@@ -16,36 +16,36 @@ const testimonials = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 bg-gray-50 dark:bg-gray-900">
+    <section id="contact" className="py-24 bg-muted">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Testimonials */}
         <div className="text-center mb-20">
-          <h3 className="text-2xl font-semibold mb-12 text-gray-600 dark:text-gray-300">
+          <h3 className="text-2xl font-semibold mb-12 text-muted-foreground">
             What clients and collaborators say
           </h3>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.name}
-                className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-700"
+                className="bg-card p-6 rounded-2xl shadow-sm border border-border"
               >
                 <div className="flex items-center gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <p className="text-gray-600 dark:text-gray-300 mb-6 italic">
+                <p className="text-muted-foreground mb-6 italic">
                   &ldquo;{testimonial.content}&rdquo;
                 </p>
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-brand-100 rounded-full flex items-center justify-center">
-                    <span className="text-brand-600 font-semibold text-sm">
+                  <div className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center">
+                    <span className="text-primary font-semibold text-sm">
                       {testimonial.name.split(' ').map(n => n[0]).join('')}
                     </span>
                   </div>
                   <div>
                     <div className="font-semibold text-sm">{testimonial.name}</div>
-                    <div className="text-gray-500 text-xs">{testimonial.role}</div>
+                    <div className="text-muted-foreground text-xs">{testimonial.role}</div>
                   </div>
                 </div>
               </div>
@@ -57,32 +57,32 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left side - Contact info */}
           <div className="text-center lg:text-left">
-            <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">
+            <h2 className="text-4xl font-bold mb-6 text-foreground">
               Let&rsquo;s build something remarkable together
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
+            <p className="text-xl text-muted-foreground mb-8">
               I&rsquo;m passionate about empowering high-performing, transparent teams that consistently push boundaries. 
               Whether you need strategic leadership, campaign development, or cultural insights – 
               let&rsquo;s discuss how we can create unforgettable marketing.
             </p>
 
             <div className="space-y-4 mb-8">
-              <div className="flex items-center gap-4 text-gray-600 dark:text-gray-300">
-                <div className="w-10 h-10 bg-brand-100 rounded-lg flex items-center justify-center">
-                  <MessageSquare className="w-5 h-5 text-brand-600" />
+              <div className="flex items-center gap-4 text-muted-foreground">
+                <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center">
+                  <MessageSquare className="w-5 h-5 text-primary" />
                 </div>
                 <div>
                   <div className="font-medium">Response time</div>
-                  <div className="text-sm text-gray-500">I&rsquo;m a straight shooter - quick and transparent</div>
+                  <div className="text-sm text-muted-foreground">I&rsquo;m a straight shooter - quick and transparent</div>
                 </div>
               </div>
-              <div className="flex items-center gap-4 text-gray-600 dark:text-gray-300">
-                <div className="w-10 h-10 bg-brand-100 rounded-lg flex items-center justify-center">
-                  <Calendar className="w-5 h-5 text-brand-600" />
+              <div className="flex items-center gap-4 text-muted-foreground">
+                <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center">
+                  <Calendar className="w-5 h-5 text-primary" />
                 </div>
                 <div>
                   <div className="font-medium">Availability</div>
-                  <div className="text-sm text-gray-500">
+                  <div className="text-sm text-muted-foreground">
                     <span className="inline-flex items-center gap-1">
                       <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                       Open for strategic consulting and leadership roles

@@ -116,7 +116,7 @@ export default function About() {
 
         {/* Experience Timeline */}
         <div>
-          <h3 className="text-2xl font-semibold mb-8 text-center text-gray-900 dark:text-white">
+          <h3 className="text-2xl font-semibold mb-8 text-center text-foreground">
             Experience Timeline
           </h3>
           <div className="max-w-4xl mx-auto">
@@ -124,19 +124,19 @@ export default function About() {
               {experience.map((job) => (
                 <div
                   key={job.company}
-                  className="relative pl-8 pb-8 border-l-2 border-brand-200 last:border-l-0"
+                  className="relative pl-8 pb-8 border-l-2 border-border last:border-l-0"
                 >
-                  <div className="absolute -left-2 top-0 w-4 h-4 bg-brand-600 rounded-full"></div>
-                  <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700">
+                  <div className="absolute -left-2 top-0 w-4 h-4 bg-primary rounded-full"></div>
+                  <div className="bg-card p-6 rounded-xl shadow-sm border border-border">
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-3">
-                      <h4 className="text-xl font-semibold text-gray-900 dark:text-white">{job.role}</h4>
-                      <div className="flex items-center gap-2 text-sm text-brand-600">
+                      <h4 className="text-xl font-semibold text-card-foreground">{job.role}</h4>
+                      <div className="flex items-center gap-2 text-sm text-primary">
                         <Calendar className="w-4 h-4" />
                         {job.period}
                       </div>
                     </div>
-                    <div className="text-brand-600 font-medium mb-3">{job.company}</div>
-                    <p className="text-gray-600 dark:text-gray-300">{job.description}</p>
+                    <div className="text-primary font-medium mb-3">{job.company}</div>
+                    <p className="text-muted-foreground">{job.description}</p>
                   </div>
                 </div>
               ))}
@@ -146,18 +146,18 @@ export default function About() {
 
         {/* Call to Action */}
         <div className="text-center mt-16">
-          <div className="bg-brand-50 dark:bg-gray-800 p-8 rounded-2xl border border-brand-200 dark:border-gray-700">
-            <Award className="w-12 h-12 text-brand-600 mx-auto mb-4" />
-            <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">
+          <div className="bg-secondary p-8 rounded-2xl border border-border">
+            <Award className="w-12 h-12 text-primary mx-auto mb-4" />
+            <h3 className="text-2xl font-semibold mb-4 text-foreground">
               Ready to elevate your brand?
             </h3>
-            <p className="text-gray-600 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
+            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
               Let&rsquo;s discuss how my strategic approach and proven track record can help your brand 
               break through the noise and achieve remarkable results.
             </p>
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 text-white rounded-lg hover:bg-brand-700 transition-colors font-medium"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-card rounded-lg hover:bg-primary-hover transition-colors font-medium"
             >
               Let&rsquo;s Connect
             </a>
