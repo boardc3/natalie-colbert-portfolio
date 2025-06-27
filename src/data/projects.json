@@ -96,5 +96,178 @@
       "client": "Fiat",
       "title": "La Dolce Vita Launch Campaign"
     }
+  },
+  {
+    "slug": "fiat-la-dolce-vita",
+    "title": "La Dolce Vita Launch Campaign",
+    "client": "Fiat",
+    "tag": "Launch Campaign",
+    "summary": "360-degree launch campaign for the all-electric Fiat 500e, translating 125+ years of European heritage into compelling American narrative by positioning 'Italian-ness' as a universal way of appreciating life's finer details.",
+    "image": "/campaigns/fiat.png",
+    "header": {
+      "bg": "gray-50",
+      "darkBg": "gray-900"
+    },
+    "main": {
+      "description": "Detailed case study coming soon. This campaign generated 2.5M conversions to website, +1,791% above social benchmarks, and 700M impressions with 270M views."
+    },
+    "nextProject": {
+      "slug": "gin-juice-launch",
+      "client": "Gin & Juice",
+      "title": "Gin & Juice Launch"
+    }
+  },
+  {
+    "slug": "gin-juice-launch",
+    "title": "Gin & Juice Launch",
+    "client": "Gin & Juice",
+    "tag": "Brand Launch",
+    "summary": "Strategic launch campaign for Snoop Dogg's premium beverage brand, focusing on cultural authenticity and market positioning to establish credibility in the premium spirits space.",
+    "image": "/campaigns/gin-juice.png",
+    "header": {
+      "bg": "gray-50",
+      "darkBg": "gray-900"
+    },
+    "main": {
+      "description": "Detailed case study coming soon. This strategic launch campaign established Gin & Juice as a premium beverage brand while maintaining cultural authenticity and market credibility."
+    },
+    "nextProject": {
+      "slug": "hellmanns-make-taste-not-waste",
+      "client": "Hellmann's",
+      "title": "Make Taste, Not Waste"
+    }
+  },
+  {
+    "slug": "hellmanns-make-taste-not-waste",
+    "title": "Make Taste, Not Waste",
+    "client": "Hellmann's",
+    "tag": "Super Bowl",
+    "summary": "Transformed Hellmann's from just a condiment to essential ingredient that helps turn food waste into delicious meals, targeting Millennials' hate of food waste and 'Fridge Blindness'.",
+    "image": "/campaigns/hellmanns.png",
+    "header": {
+      "bg": "gray-50",
+      "darkBg": "gray-900"
+    },
+    "main": {
+      "description": "Detailed case study coming soon. This Super Bowl campaign expanded usage occasions, delivered genuine social impact, and leveraged America's second largest food waste day as a powerful platform."
+    },
+    "nextProject": {
+      "slug": "hexclad-area-51",
+      "client": "HexClad",
+      "title": "Area 51 Super Bowl Campaign"
+    }
+  },
+  {
+    "slug": "hexclad-area-51",
+    "title": "Area 51 Super Bowl Campaign",
+    "client": "HexClad",
+    "tag": "Super Bowl",
+    "summary": "For HexClad's first-ever debut at the Super Bowl, we didn't just launch an ad—we engineered a viral phenomenon that established HexClad as advanced, out-of-this-world cooking technology.",
+    "image": "/campaigns/hexclad.png",
+    "header": {
+      "bg": "gray-50",
+      "darkBg": "gray-900"
+    },
+    "main": {
+      "sections": [
+        {
+          "heading": "The Challenge",
+          "content": [
+            "HexClad faced the ultimate marketing challenge: making their Super Bowl debut count. With millions of viewers and enormous investment at stake, the brand needed to establish itself as more than just another cookware company.",
+            "The goal was to position HexClad as advanced, innovative cooking technology that transcends traditional kitchen boundaries—literally out of this world."
+          ]
+        },
+        {
+          "heading": "The Viral Strategy",
+          "content": [
+            "We threw out the traditional playbook of releasing a trailer to build anticipation for our spot. Instead, we released the campaign by creating a conspiracy theory that Gordon Ramsay was cooking at Area 51, fueled by influencer storytelling and internet speculation.",
+            "This mystery captivated 69 million people and generated 6 billion impressions before the big reveal. The campaign transcended traditional advertising, offering an immersive experience that kept audiences engaged and eagerly anticipating the final reveal.",
+            "The mystery culminated in a Super Bowl ad revealing that Gordon was cooking for aliens using HexClad's advanced technology, perfectly positioning the brand as innovative and otherworldly."
+          ]
+        },
+        {
+          "heading": "Campaign Execution",
+          "content": [
+            "Created an elaborate conspiracy theory around Gordon Ramsay's mysterious activities at Area 51, building intrigue and speculation across social media platforms.",
+            "Leveraged influencer storytelling to fuel internet speculation and organic conversation, creating authentic buzz around the mystery without revealing the brand connection.",
+            "Timed the big reveal perfectly for maximum Super Bowl impact, connecting all the mystery elements to HexClad's advanced cooking technology in a memorable, shareable moment."
+          ]
+        }
+      ],
+      "sidebar": {
+        "role": [
+          "Campaign Strategy/Leadership",
+          "Stunt Product Development and Roll Out Strategy",
+          "Influencer & Paid Media Strategy",
+          "Integrated Planning & Execution"
+        ],
+        "results": [
+          { "label": "Increase in Media Efficiency Ratio", "value": "+28%" },
+          { "label": "Organic Views on Teaser TikToks", "value": "50M+" },
+          { "label": "Earned Impressions", "value": "15B" }
+        ]
+      }
+    },
+    "nextProject": {
+      "slug": "supergoop-feel-super",
+      "client": "Supergoop!",
+      "title": "Feel Super Campaign"
+    }
+  },
+  {
+    "slug": "supergoop-feel-super",
+    "title": "Feel Super Campaign",
+    "client": "Supergoop!",
+    "tag": "Social Campaign",
+    "summary": "Revolutionized sunscreen culture with a social-first campaign featuring Liza Koshy as Chief Super Officer, blurring IRL and URL boundaries to build 'Super' equity and drive awareness for the crucial Summer buying season.",
+    "image": "/campaigns/supergoop.png",
+    "header": {
+      "bg": "gray-50",
+      "darkBg": "gray-900"
+    },
+    "main": {
+      "sections": [
+        {
+          "heading": "The Challenge",
+          "content": [
+            "Supergoop! had successfully revolutionized sunscreen culture, but a crowded market demanded they reaffirm their superior quality. The objective was clear: build 'Super' equity and drive awareness going into the crucial Summer buying season.",
+            "The brand needed to stand out in an increasingly competitive sunscreen market while maintaining their position as the premium, innovative choice for conscious consumers."
+          ]
+        },
+        {
+          "heading": "The Solution",
+          "content": [
+            "Our solution was a social-first campaign blurring the IRL and URL boundaries, spearheaded by our Chief Super Officer. We tapped Liza Koshy, whose authentic alignment with the brand ethos and undeniable internet presence uniquely positioned her to make audiences 'Feel Super.'",
+            "The campaign leveraged Liza's natural charisma and social media expertise to create content that felt authentic while driving brand messaging home. By making her the Chief Super Officer, we created a narrative that extended beyond traditional advertising into lifestyle and aspiration."
+          ]
+        },
+        {
+          "heading": "Campaign Execution",
+          "content": [
+            "Strategic selection of Liza Koshy as Chief Super Officer, leveraging her authentic brand alignment and massive social media following to create credible, engaging content.",
+            "Developed content that blurred the lines between online and offline experiences, creating shareable moments that drove organic engagement and brand awareness.",
+            "Coordinated launch across multiple channels and touchpoints, ensuring consistent messaging while maximizing reach and impact during peak summer buying season."
+          ]
+        }
+      ],
+      "sidebar": {
+        "role": [
+          "Campaign Strategy/Leadership",
+          "Stunt Product Development and Roll Out Strategy",
+          "Influencer & Paid Media Strategy",
+          "Integrated Planning, Coordination & Execution"
+        ],
+        "results": [
+          { "label": "Lift in Unaided Brand Awareness", "value": "Double Digit" },
+          { "label": "Earned Impressions", "value": "6.5B" },
+          { "label": "Views", "value": "106M" }
+        ]
+      }
+    },
+    "nextProject": {
+      "slug": "airbnb-weirdly-specific",
+      "client": "Airbnb",
+      "title": "Weirdly Specific TikTok Series"
+    }
   }
 ] 
