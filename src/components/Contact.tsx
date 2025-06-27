@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Global Brand Team",
     role: "Fortune 100 Client",
-    content: "Natalie's cultural insights and strategic thinking transformed our approach to Gen-Z marketing. Her campaigns consistently delivered above-benchmark performance across all metrics."
+    content: "Natalie&rsquo;s cultural insights and strategic thinking transformed our approach to Gen-Z marketing. Her campaigns consistently delivered above-benchmark performance across all metrics."
   },
   {
     name: "Creative Director",
@@ -35,7 +35,7 @@ export default function Contact() {
                   ))}
                 </div>
                 <p className="text-gray-600 dark:text-gray-300 mb-6 italic">
-                  "{testimonial.content}"
+                  &ldquo;{testimonial.content}&rdquo;
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-brand-100 rounded-full flex items-center justify-center">
@@ -58,12 +58,12 @@ export default function Contact() {
           {/* Left side - Contact info */}
           <div className="text-center lg:text-left">
             <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">
-              Let's build something remarkable together
+              Let&rsquo;s build something remarkable together
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-              I'm passionate about empowering high-performing, transparent teams that consistently push boundaries. 
+              I&rsquo;m passionate about empowering high-performing, transparent teams that consistently push boundaries. 
               Whether you need strategic leadership, campaign development, or cultural insights – 
-              let's discuss how we can create unforgettable marketing.
+              let&rsquo;s discuss how we can create unforgettable marketing.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -73,7 +73,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-medium">Response time</div>
-                  <div className="text-sm text-gray-500">I'm a straight shooter - quick and transparent</div>
+                  <div className="text-sm text-gray-500">I&rsquo;m a straight shooter - quick and transparent</div>
                 </div>
               </div>
               <div className="flex items-center gap-4 text-gray-600 dark:text-gray-300">
@@ -135,8 +135,8 @@ export default function Contact() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Ready to start?</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  Let's discuss your brand challenges, strategic goals, and how we can create 
-                  marketing that's not just effective, but unforgettable.
+                  Let&rsquo;s discuss your brand challenges, strategic goals, and how we can create 
+                  marketing that&rsquo;s not just effective, but unforgettable.
                 </p>
                 <div className="space-y-3 text-sm text-gray-500">
                   <div className="flex items-center justify-center gap-2">

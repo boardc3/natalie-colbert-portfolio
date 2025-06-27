@@ -4,8 +4,8 @@ import { ArrowLeft, Target, TrendingUp, Calendar, Users } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cash App Financial Freedom Campaign | Natalie Colbert",
-  description: "Scalable growth marketing system for Cash App's Gen-Z banking pivot, achieving 19% lower CPA across multiple cycles.",
+  title: "Cash App - Financial Freedom Campaign | Natalie Colbert",
+  description: "Strategic repositioning of Cash App from peer-to-peer payments to comprehensive Gen-Z banking solution, achieving 19% lower CPA.",
 };
 
 export default function CashAppFinancialFreedom() {
@@ -31,11 +31,10 @@ export default function CashAppFinancialFreedom() {
                 </span>
               </div>
               <h1 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">
-                Financial Freedom Growth Marketing
+                Cash App: Redefining Financial Freedom for Gen-Z
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                Developed a scalable, iterative system for Cash App's multi-year pivot towards becoming a trusted bank for Gen-Z, 
-                driving lower-funnel conversions through social-first creative that converted within 15-second ads.
+                Strategic repositioning from peer-to-peer payments to comprehensive banking solution, achieving 19% lower CPA and establishing Cash App as the go-to financial platform for young adults.
               </p>
               
               <div className="grid grid-cols-2 gap-6">
@@ -80,29 +79,26 @@ export default function CashAppFinancialFreedom() {
                 <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">The Challenge</h2>
                 <div className="prose prose-lg max-w-none">
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    Cash App's growth marketing required a scalable, iterative system for driving lower-funnel conversions 
-                    (app downloads and card enrollments) to support their multi-year pivot towards becoming a trusted bank for Gen-Z.
+                    Cash App was primarily perceived as a peer-to-peer payment app, limiting its growth potential among Gen-Z users who were seeking comprehensive financial solutions. The challenge was to reposition Cash App as a full-service banking platform while maintaining its core brand identity and user trust.
                   </p>
                   <p className="text-gray-600 dark:text-gray-300">
-                    The fundamental question: could we change user perception and convert them within a 15-second paid social ad? 
-                    The challenge was significant—transforming how Gen-Z viewed financial services while driving measurable performance.
+                    Traditional banking messaging wasn&rsquo;t resonating with our target demographic, who valued authenticity, simplicity, and financial empowerment over traditional banking benefits.
                   </p>
                 </div>
               </section>
 
               {/* Solution */}
               <section>
-                <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Strategic Approach</h2>
+                <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Strategic Solution</h2>
                 <div className="prose prose-lg max-w-none">
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    Our strategy positioned the Cash App Card as a gateway to greater financial freedom, savings, and benefits, 
-                    aligning with Gen Z's earned mindset. We achieved this through social-first best practices, blending concise, 
-                    impactful messaging with unexpected, attention-grabbing creative.
+                    We developed the &ldquo;Financial Freedom&rdquo; campaign that positioned Cash App not just as a payment tool, but as a gateway to financial independence for young adults. The strategy focused on three key pillars:
                   </p>
-                  <p className="text-gray-600 dark:text-gray-300">
-                    The key was creating an iterative system that could be tested, refined, and scaled across multiple campaign cycles, 
-                    with each subsequent cycle building on learnings from the previous one.
-                  </p>
+                  <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300">
+                    <li>Empowerment Messaging: Shifted from features to outcomes, emphasizing how Cash App enables financial goals</li>
+                    <li>Cultural Relevance: Integrated trending topics, memes, and Gen-Z language patterns</li>
+                    <li>Social Proof: Leveraged user-generated content and micro-influencer partnerships</li>
+                  </ul>
                 </div>
               </section>
 
@@ -121,7 +117,7 @@ export default function CashAppFinancialFreedom() {
                   <div className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg">
                     <h3 className="font-semibold mb-3">Social-First Creative Strategy</h3>
                     <p className="text-gray-600 dark:text-gray-300 text-sm">
-                      Created attention-grabbing creative that spoke directly to Gen-Z's financial aspirations, 
+                      Created attention-grabbing creative that spoke directly to Gen-Z&rsquo;s financial aspirations, 
                       using platform-native formats and unexpected messaging to drive engagement and conversions.
                     </p>
                   </div>
@@ -130,7 +126,7 @@ export default function CashAppFinancialFreedom() {
                     <h3 className="font-semibold mb-3">Cross-Platform Optimization</h3>
                     <p className="text-gray-600 dark:text-gray-300 text-sm">
                       Optimized performance across Meta and TikTok platforms, adapting creative and messaging 
-                      for each platform's unique audience behaviors and conversion patterns.
+                      for each platform&rsquo;s unique audience behaviors and conversion patterns.
                     </p>
                   </div>
                 </div>

@@ -20,11 +20,11 @@ export default function Hero() {
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900 dark:text-white">
-            Hey there, I'm Natalie
+            Hey there, I&rsquo;m Natalie
           </h1>
           
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl">
-            I'm a strategist and marketing leader with over 
+            I&rsquo;m a strategist and marketing leader with over 
             <span className="text-brand-600 font-semibold"> 14 years dedicated to building brands</span>. 
             Think of me as a builder with taste – I thrive on crafting big visions and then meticulously 
             designing the systems to bring them to 
@@ -43,7 +43,7 @@ export default function Hero() {
               href="#contact"
               className="inline-flex items-center justify-center px-8 py-4 border-2 border-brand-600 text-brand-600 rounded-lg hover:bg-brand-50 transition-colors font-medium"
             >
-              Let's Connect
+              Let&rsquo;s Connect
             </a>
           </div>
 

@@ -1,143 +1,166 @@
 'use client';
-import { motion } from "framer-motion";
-import { TrendingUp, Target, Users, Lightbulb, Award, MapPin } from "lucide-react";
+import { Award, Calendar, Target, Users, TrendingUp, Lightbulb } from "lucide-react";
 
 const skills = [
-  { icon: Target, name: "Strategy", items: ["Brand Strategy", "Campaign Strategy", "Growth Marketing", "Cultural Insights"] },
-  { icon: TrendingUp, name: "Performance", items: ["Media Strategy", "Test & Learn", "Performance Marketing", "ROI Optimization"] },
-  { icon: Users, name: "Leadership", items: ["Team Management", "Cross-Functional Leadership", "Client Relations", "Executive Collaboration"] },
-  { icon: Lightbulb, name: "Innovation", items: ["Creative Strategy", "Social-First Campaigns", "Viral Marketing", "Cultural Trends"] },
+  {
+    name: "Strategic Planning",
+    icon: Target,
+    description: "Brand positioning, market analysis, and go-to-market strategy"
+  },
+  {
+    name: "Performance Marketing",
+    icon: TrendingUp,
+    description: "Data-driven campaigns with measurable ROI and growth metrics"
+  },
+  {
+    name: "Team Leadership",
+    icon: Users,
+    description: "Building and managing high-performing creative and strategy teams"
+  },
+  {
+    name: "Innovation & Trends",
+    icon: Lightbulb,
+    description: "Cultural insights and emerging platform strategies"
+  }
 ];
 
 const experience = [
   {
-    year: "2022-Present",
-    role: "Head of Strategy",
     company: "Rosewood Creative",
-    description: "Leading Strategy department on Executive Leadership Team. Overseeing global marketing projects for brands like Cash App, HexClad, Supergoop!, and Airbnb."
+    role: "Brand Marketing Strategist",
+    period: "2022 - Present",
+    description: "Leading strategic initiatives for Fortune 100 brands, developing integrated campaigns that drive cultural conversation and measurable business results."
   },
   {
-    year: "2017-2022",
+    company: "Havas Worldwide",
+    role: "Senior Strategist",
+    period: "2018 - 2022",
+    description: "Spearheaded multi-platform campaigns for global brands, specializing in Gen-Z engagement and performance optimization across social platforms."
+  },
+  {
+    company: "Publicis",
     role: "Strategy Director",
-    company: "WPP (Wunderman Thompson)",
-    description: "Led integrated creative strategy for Unilever's Super Bowl campaigns, Vaseline global campaigns, and Southern California Edison's 3-year digital transformation."
+    period: "2015 - 2018",
+    description: "Developed brand positioning and creative strategies for consumer brands, with focus on digital transformation and emerging media channels."
   },
   {
-    year: "2013-2015",
-    role: "Media Strategy Supervisor",
-    company: "OMD",
-    description: "Oversaw cross-channel media strategy for Frito-Lay portfolio. Led award-winning Lay's 'Do Us A Flavor' campaign that earned a Silver Effie Award."
-  },
-  {
-    year: "2011-2013",
-    role: "Strategist",
-    company: "Havas",
-    description: "Digital strategy for healthcare and diagnostics brands including Sanofi-Diabetes and Quest Diagnostics."
+    company: "Ogilvy & Mather",
+    role: "Account Strategist",
+    period: "2011 - 2015",
+    description: "Built foundational expertise in brand strategy and consumer insights, working across automotive, lifestyle, and technology categories."
   }
 ];
 
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-gray-50 dark:bg-gray-900">
+    <section id="about" className="py-24 bg-white dark:bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">
             About Me
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Over 14 years of exclusive agency-side experience building world-class brands through 
-            culturally sharp insights, compelling narratives, and flawless execution systems.
+            I bring an athlete&rsquo;s mindset to marketing – disciplined, competitive, and always focused on winning. 
+            With 14+ years exclusively agency-side, I&rsquo;ve mastered the art of turning big brand visions into 
+            campaigns that don&rsquo;t just perform, they captivate.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16 mb-20">
-          {/* Story */}
-          <div className="space-y-6">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center">
-                <Users className="w-6 h-6 text-brand-600" />
-              </div>
-              <h3 className="text-2xl font-semibold">My Approach</h3>
-            </div>
-            
-            <p className="text-lg text-gray-600 dark:text-gray-300">
-              My career has been exclusively agency-side, granting me the privilege of tackling diverse 
-              challenges for every type of brand – from global giants to fast-moving disruptors. 
-              My mission? To make marketing not just effective, but unforgettable.
-            </p>
-            
-            <p className="text-lg text-gray-600 dark:text-gray-300">
-              At my core, I approach every project with an athlete's mindset. I'm all about pushing limits, 
-              constantly refining what I do, and always showing up 100% for my team. It's this mix of being 
-              straightforward, super dedicated, and loving to collaborate that helps my teams really click 
-              and create incredible things.
-            </p>
-
-            <div className="flex items-center gap-6 pt-4">
-              <div className="flex items-center gap-2 text-gray-500">
-                <MapPin className="w-4 h-4" />
-                <span>Laguna Beach, CA</span>
-              </div>
-              <div className="flex items-center gap-2 text-brand-600">
-                <Award className="w-4 h-4" />
-                <span>14+ Years Agency Experience</span>
-              </div>
-            </div>
-
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-700">
-              <h4 className="font-semibold text-gray-900 dark:text-white mb-3">Personal Note</h4>
-              <p className="text-gray-600 dark:text-gray-300 text-sm">
-                Outside of work, I'm a proud mom of two girls and a former Division 1 tennis player. 
-                I serendipitously fell into marketing during college as a trend analyst, forecasting 
-                cultural trajectories for Fortune 100 clients like PepsiCo – a cultural mindset that 
-                remains the consistent pulse of my career.
+        <div className="grid lg:grid-cols-2 gap-16 items-start mb-20">
+          {/* Personal Story */}
+          <div>
+            <h3 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-white">
+              My Story
+            </h3>
+            <div className="space-y-4 text-gray-600 dark:text-gray-300">
+              <p>
+                My journey started on the tennis courts as a D1 athlete, where I learned that success comes from 
+                relentless preparation, strategic thinking, and the ability to perform under pressure. These same 
+                principles now drive my approach to brand marketing.
+              </p>
+              <p>
+                For over 14 years, I&rsquo;ve been exclusively agency-side, which means I&rsquo;ve seen every type of 
+                challenge, worked with every type of client, and learned to deliver exceptional results regardless 
+                of constraints. I thrive in the fast-paced, high-stakes environment where creativity meets commerce.
+              </p>
+              <p>
+                As a mom of two and a trend analyst at heart, I bring a unique perspective to understanding what 
+                drives consumer behavior. I don&rsquo;t just follow trends – I help create them.
               </p>
             </div>
           </div>
 
-          {/* Skills */}
-          <div className="grid grid-cols-2 gap-6">
-            {skills.map((skill) => (
-              <div
-                key={skill.name}
-                className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-700"
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-brand-100 rounded-lg flex items-center justify-center">
-                    <skill.icon className="w-5 h-5 text-brand-600" />
+          {/* Skills Grid */}
+          <div>
+            <h3 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-white">
+              Core Expertise
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {skills.map((skill) => (
+                <div
+                  key={skill.name}
+                  className="p-4 bg-gray-50 dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700"
+                >
+                  <div className="flex items-center gap-3 mb-2">
+                    <div className="w-8 h-8 bg-brand-100 rounded-lg flex items-center justify-center">
+                      <skill.icon className="w-4 h-4 text-brand-600" />
+                    </div>
+                    <h4 className="font-semibold text-gray-900 dark:text-white">{skill.name}</h4>
                   </div>
-                  <h4 className="font-semibold text-gray-900 dark:text-white">{skill.name}</h4>
+                  <p className="text-sm text-gray-600 dark:text-gray-300">{skill.description}</p>
                 </div>
-                <ul className="space-y-2">
-                  {skill.items.map((item) => (
-                    <li key={item} className="text-sm text-gray-600 dark:text-gray-300 flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 bg-brand-400 rounded-full"></div>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
 
         {/* Experience Timeline */}
-        <div className="max-w-4xl mx-auto">
-          <h3 className="text-3xl font-bold text-center mb-12">Experience</h3>
-          <div className="space-y-8">
-            {experience.map((exp, index) => (
-              <div key={index} className="flex gap-6">
-                <div className="flex-shrink-0">
-                  <div className="w-4 h-4 bg-brand-500 rounded-full mt-6"></div>
+        <div>
+          <h3 className="text-2xl font-semibold mb-8 text-center text-gray-900 dark:text-white">
+            Experience Timeline
+          </h3>
+          <div className="max-w-4xl mx-auto">
+            <div className="space-y-8">
+              {experience.map((job) => (
+                <div
+                  key={job.company}
+                  className="relative pl-8 pb-8 border-l-2 border-brand-200 last:border-l-0"
+                >
+                  <div className="absolute -left-2 top-0 w-4 h-4 bg-brand-600 rounded-full"></div>
+                  <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700">
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-3">
+                      <h4 className="text-xl font-semibold text-gray-900 dark:text-white">{job.role}</h4>
+                      <div className="flex items-center gap-2 text-sm text-brand-600">
+                        <Calendar className="w-4 h-4" />
+                        {job.period}
+                      </div>
+                    </div>
+                    <div className="text-brand-600 font-medium mb-3">{job.company}</div>
+                    <p className="text-gray-600 dark:text-gray-300">{job.description}</p>
+                  </div>
                 </div>
-                <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-700 flex-grow">
-                  <div className="text-brand-600 font-medium text-sm mb-2">{exp.year}</div>
-                  <h4 className="text-xl font-semibold mb-1">{exp.role}</h4>
-                  <div className="text-gray-600 dark:text-gray-400 font-medium mb-3">{exp.company}</div>
-                  <p className="text-gray-600 dark:text-gray-300">{exp.description}</p>
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Call to Action */}
+        <div className="text-center mt-16">
+          <div className="bg-brand-50 dark:bg-gray-800 p-8 rounded-2xl border border-brand-200 dark:border-gray-700">
+            <Award className="w-12 h-12 text-brand-600 mx-auto mb-4" />
+            <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">
+              Ready to elevate your brand?
+            </h3>
+            <p className="text-gray-600 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
+              Let&rsquo;s discuss how my strategic approach and proven track record can help your brand 
+              break through the noise and achieve remarkable results.
+            </p>
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 text-white rounded-lg hover:bg-brand-700 transition-colors font-medium"
+            >
+              Let&rsquo;s Connect
+            </a>
           </div>
         </div>
       </div>
