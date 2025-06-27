@@ -4,11 +4,11 @@ import { ArrowLeft, Target, TrendingUp, Calendar, Users } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Supergoop! Feel Super Campaign | Natalie Colbert",
-  description: "Social-first campaign featuring Liza Koshy as Chief Super Officer, revolutionizing sunscreen culture with 6.5B earned impressions.",
+  title: "Cash App Financial Freedom Campaign | Natalie Colbert",
+  description: "Scalable growth marketing system for Cash App's Gen-Z banking pivot, achieving 19% lower CPA across multiple cycles.",
 };
 
-export default function SupergoopFeelSuper() {
+export default function CashAppFinancialFreedom() {
   return (
     <div className="min-h-screen bg-white dark:bg-black">
       {/* Header */}
@@ -25,17 +25,17 @@ export default function SupergoopFeelSuper() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <span className="text-brand-600 font-semibold text-lg">Supergoop!</span>
+                <span className="text-brand-600 font-semibold text-lg">Cash App</span>
                 <span className="text-xs text-gray-500 dark:text-gray-400 bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded-full">
-                  Social Campaign
+                  Growth Marketing
                 </span>
               </div>
               <h1 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">
-                Feel Super Campaign
+                Financial Freedom Growth Marketing
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                Revolutionized sunscreen culture with a social-first campaign featuring Liza Koshy as Chief Super Officer, 
-                blurring IRL and URL boundaries to build &ldquo;Super&rdquo; equity and drive awareness for the crucial Summer buying season.
+                Developed a scalable, iterative system for Cash App's multi-year pivot towards becoming a trusted bank for Gen-Z, 
+                driving lower-funnel conversions through social-first creative that converted within 15-second ads.
               </p>
               
               <div className="grid grid-cols-2 gap-6">
@@ -43,14 +43,14 @@ export default function SupergoopFeelSuper() {
                   <Calendar className="w-5 h-5 text-brand-600" />
                   <div>
                     <div className="font-semibold text-sm">Timeline</div>
-                    <div className="text-gray-600 dark:text-gray-300 text-sm">Summer 2024</div>
+                    <div className="text-gray-600 dark:text-gray-300 text-sm">Multi-year program</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <Users className="w-5 h-5 text-brand-600" />
                   <div>
-                    <div className="font-semibold text-sm">Agency</div>
-                    <div className="text-gray-600 dark:text-gray-300 text-sm">Rosewood Creative</div>
+                    <div className="font-semibold text-sm">Team Size</div>
+                    <div className="text-gray-600 dark:text-gray-300 text-sm">8+ person team</div>
                   </div>
                 </div>
               </div>
@@ -58,8 +58,8 @@ export default function SupergoopFeelSuper() {
             
             <div className="relative">
               <Image
-                src="/campaigns/supergoop.png"
-                alt="Supergoop! Feel Super Campaign"
+                src="/campaigns/cashapp.png"
+                alt="Cash App Financial Freedom Campaign"
                 width={600}
                 height={400}
                 className="rounded-2xl shadow-xl"
@@ -80,30 +80,28 @@ export default function SupergoopFeelSuper() {
                 <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">The Challenge</h2>
                 <div className="prose prose-lg max-w-none">
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    Supergoop! had successfully revolutionized sunscreen culture, but a crowded market demanded they reaffirm 
-                    their superior quality. The objective was clear: build &ldquo;Super&rdquo; equity and drive awareness going into the 
-                    crucial Summer buying season.
+                    Cash App's growth marketing required a scalable, iterative system for driving lower-funnel conversions 
+                    (app downloads and card enrollments) to support their multi-year pivot towards becoming a trusted bank for Gen-Z.
                   </p>
                   <p className="text-gray-600 dark:text-gray-300">
-                    The brand needed to stand out in an increasingly competitive sunscreen market while maintaining their 
-                    position as the premium, innovative choice for conscious consumers.
+                    The fundamental question: could we change user perception and convert them within a 15-second paid social ad? 
+                    The challenge was significant—transforming how Gen-Z viewed financial services while driving measurable performance.
                   </p>
                 </div>
               </section>
 
               {/* Solution */}
               <section>
-                <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">The Solution</h2>
+                <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Strategic Approach</h2>
                 <div className="prose prose-lg max-w-none">
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    Our solution was a social-first campaign blurring the IRL and URL boundaries, spearheaded by our Chief Super Officer. 
-                    We tapped Liza Koshy, whose authentic alignment with the brand ethos and undeniable internet presence uniquely 
-                    positioned her to make audiences &ldquo;Feel Super.&rdquo;
+                    Our strategy positioned the Cash App Card as a gateway to greater financial freedom, savings, and benefits, 
+                    aligning with Gen Z's earned mindset. We achieved this through social-first best practices, blending concise, 
+                    impactful messaging with unexpected, attention-grabbing creative.
                   </p>
                   <p className="text-gray-600 dark:text-gray-300">
-                    The campaign leveraged Liza&rsquo;s natural charisma and social media expertise to create content that felt 
-                    authentic while driving brand messaging home. By making her the Chief Super Officer, we created a 
-                    narrative that extended beyond traditional advertising into lifestyle and aspiration.
+                    The key was creating an iterative system that could be tested, refined, and scaled across multiple campaign cycles, 
+                    with each subsequent cycle building on learnings from the previous one.
                   </p>
                 </div>
               </section>
@@ -113,26 +111,26 @@ export default function SupergoopFeelSuper() {
                 <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Campaign Execution</h2>
                 <div className="space-y-6">
                   <div className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg">
-                    <h3 className="font-semibold mb-3">Influencer Partnership Strategy</h3>
+                    <h3 className="font-semibold mb-3">Iterative Testing Framework</h3>
                     <p className="text-gray-600 dark:text-gray-300 text-sm">
-                      Strategic selection of Liza Koshy as Chief Super Officer, leveraging her authentic brand alignment 
-                      and massive social media following to create credible, engaging content.
+                      Developed a systematic approach to testing creative, messaging, and targeting across 4 growth marketing cycles, 
+                      with each cycle surpassing previous performance records.
                     </p>
                   </div>
                   
                   <div className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg">
-                    <h3 className="font-semibold mb-3">Social-First Content Creation</h3>
+                    <h3 className="font-semibold mb-3">Social-First Creative Strategy</h3>
                     <p className="text-gray-600 dark:text-gray-300 text-sm">
-                      Developed content that blurred the lines between online and offline experiences, creating 
-                      shareable moments that drove organic engagement and brand awareness.
+                      Created attention-grabbing creative that spoke directly to Gen-Z's financial aspirations, 
+                      using platform-native formats and unexpected messaging to drive engagement and conversions.
                     </p>
                   </div>
                   
                   <div className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg">
-                    <h3 className="font-semibold mb-3">Integrated Campaign Rollout</h3>
+                    <h3 className="font-semibold mb-3">Cross-Platform Optimization</h3>
                     <p className="text-gray-600 dark:text-gray-300 text-sm">
-                      Coordinated launch across multiple channels and touchpoints, ensuring consistent messaging 
-                      while maximizing reach and impact during peak summer buying season.
+                      Optimized performance across Meta and TikTok platforms, adapting creative and messaging 
+                      for each platform's unique audience behaviors and conversion patterns.
                     </p>
                   </div>
                 </div>
@@ -150,19 +148,19 @@ export default function SupergoopFeelSuper() {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-2">
                     <div className="w-1.5 h-1.5 bg-brand-400 rounded-full mt-2"></div>
-                    <span className="text-sm text-gray-600 dark:text-gray-300">Campaign Strategy/Leadership</span>
+                    <span className="text-sm text-gray-600 dark:text-gray-300">Led 8+ person team across 4 growth marketing cycles</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <div className="w-1.5 h-1.5 bg-brand-400 rounded-full mt-2"></div>
-                    <span className="text-sm text-gray-600 dark:text-gray-300">Stunt Product Development and Roll Out Strategy</span>
+                    <span className="text-sm text-gray-600 dark:text-gray-300">Social-first creative strategy</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <div className="w-1.5 h-1.5 bg-brand-400 rounded-full mt-2"></div>
-                    <span className="text-sm text-gray-600 dark:text-gray-300">Influencer & Paid Media Strategy</span>
+                    <span className="text-sm text-gray-600 dark:text-gray-300">Performance optimization</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <div className="w-1.5 h-1.5 bg-brand-400 rounded-full mt-2"></div>
-                    <span className="text-sm text-gray-600 dark:text-gray-300">Integrated Planning, Coordination & Execution</span>
+                    <span className="text-sm text-gray-600 dark:text-gray-300">Gen-Z positioning strategy</span>
                   </li>
                 </ul>
               </div>
@@ -175,16 +173,16 @@ export default function SupergoopFeelSuper() {
                 </h3>
                 <div className="space-y-4">
                   <div className="bg-white dark:bg-gray-800 p-4 rounded-lg">
-                    <div className="text-2xl font-bold text-brand-600 mb-1">Double Digit</div>
-                    <div className="text-sm text-gray-600 dark:text-gray-300">Lift in Unaided Brand Awareness</div>
+                    <div className="text-2xl font-bold text-brand-600 mb-1">-19%</div>
+                    <div className="text-sm text-gray-600 dark:text-gray-300">Lower CPA on Meta</div>
                   </div>
                   <div className="bg-white dark:bg-gray-800 p-4 rounded-lg">
-                    <div className="text-2xl font-bold text-brand-600 mb-1">6.5B</div>
-                    <div className="text-sm text-gray-600 dark:text-gray-300">Earned Impressions</div>
+                    <div className="text-2xl font-bold text-brand-600 mb-1">-15%</div>
+                    <div className="text-sm text-gray-600 dark:text-gray-300">Lower CPA on TikTok</div>
                   </div>
                   <div className="bg-white dark:bg-gray-800 p-4 rounded-lg">
-                    <div className="text-2xl font-bold text-brand-600 mb-1">106M</div>
-                    <div className="text-sm text-gray-600 dark:text-gray-300">Views</div>
+                    <div className="text-2xl font-bold text-brand-600 mb-1">4 Cycles</div>
+                    <div className="text-sm text-gray-600 dark:text-gray-300">Each surpassed previous records</div>
                   </div>
                 </div>
               </div>
@@ -193,11 +191,11 @@ export default function SupergoopFeelSuper() {
               <div className="bg-brand-50 dark:bg-brand-900/20 p-6 rounded-2xl">
                 <h3 className="font-semibold mb-3">Next Project</h3>
                 <Link 
-                  href="/work/hexclad-area-51"
+                  href="/work/fiat-la-dolce-vita"
                   className="block hover:opacity-80 transition-opacity"
                 >
-                  <div className="text-brand-600 font-medium text-sm mb-1">HexClad</div>
-                  <div className="text-gray-900 dark:text-white font-semibold">Area 51 Super Bowl Campaign</div>
+                  <div className="text-brand-600 font-medium text-sm mb-1">Fiat</div>
+                  <div className="text-gray-900 dark:text-white font-semibold">La Dolce Vita Launch Campaign</div>
                 </Link>
               </div>
             </div>

@@ -34,7 +34,7 @@ export default function HexCladArea51() {
                 Area 51 Super Bowl Campaign
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-                For HexClad's first-ever debut at the Super Bowl, we didn't just launch an ad—we engineered a viral phenomenon 
+                For HexClad&rsquo;s first-ever debut at the Super Bowl, we didn&rsquo;t just launch an ad—we engineered a viral phenomenon 
                 that established HexClad as advanced, out-of-this-world cooking technology.
               </p>
               
@@ -105,7 +105,7 @@ export default function HexCladArea51() {
                     engaged and eagerly anticipating the final reveal.
                   </p>
                   <p className="text-gray-600 dark:text-gray-300">
-                    The mystery culminated in a Super Bowl ad revealing that Gordon was cooking for aliens using HexClad's 
+                    The mystery culminated in a Super Bowl ad revealing that Gordon was cooking for aliens using HexClad&rsquo;s 
                     advanced technology, perfectly positioning the brand as innovative and otherworldly.
                   </p>
                 </div>
@@ -118,7 +118,7 @@ export default function HexCladArea51() {
                   <div className="bg-gray-50 dark:bg-gray-900 p-6 rounded-lg">
                     <h3 className="font-semibold mb-3">Conspiracy Theory Development</h3>
                     <p className="text-gray-600 dark:text-gray-300 text-sm">
-                      Created an elaborate conspiracy theory around Gordon Ramsay's mysterious activities at Area 51, 
+                      Created an elaborate conspiracy theory around Gordon Ramsay&rsquo;s mysterious activities at Area 51, 
                       building intrigue and speculation across social media platforms.
                     </p>
                   </div>
@@ -135,7 +135,7 @@ export default function HexCladArea51() {
                     <h3 className="font-semibold mb-3">Super Bowl Reveal Strategy</h3>
                     <p className="text-gray-600 dark:text-gray-300 text-sm">
                       Timed the big reveal perfectly for maximum Super Bowl impact, connecting all the mystery 
-                      elements to HexClad's advanced cooking technology in a memorable, shareable moment.
+                      elements to HexClad&rsquo;s advanced cooking technology in a memorable, shareable moment.
                     </p>
                   </div>
                 </div>
