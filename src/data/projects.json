@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "airbnb-weirdly-specific",
+    "title": "Weirdly Specific TikTok Series",
+    "client": "Airbnb",
+    "tag": "TikTok Strategy",
+    "summary": "Creative strategy connecting TikTok's unique subcommunities to Stays that represent them, creating 'Weirdly Specific' lists that paired unique Airbnbs with equally unique TikTok communities.",
+    "image": "/campaigns/airbnb.png",
+    "header": {
+      "bg": "gray-50",
+      "darkBg": "gray-900"
+    },
+    "main": {
+      "description": "Detailed case study coming soon. This innovative TikTok strategy showcased authentic community engagement and strong creative thinking across diverse subcommunities."
+    },
+    "nextProject": {
+      "slug": "beats-authentic-tiktok",
+      "client": "Beats by Dre",
+      "title": "Authentic TikTok Content Series"
+    }
+  },
+  {
+    "slug": "beats-authentic-tiktok",
+    "title": "Authentic TikTok Content Series",
+    "client": "Beats by Dre",
+    "tag": "Content Strategy",
+    "summary": "Defied norms on TikTok by embracing the inherent awkwardness of sponsored content, making it obvious and highly entertaining through self-awareness and subversion.",
+    "image": "/campaigns/beats.png",
+    "header": {
+      "bg": "gray-50",
+      "darkBg": "gray-900"
+    },
+    "main": {
+      "description": "Detailed case study coming soon. This groundbreaking campaign earned a Webby Award and Silver Pencil at The One Show, proving that realness triumphs over manufactured authenticity."
+    },
+    "nextProject": {
+      "slug": "cashapp-financial-freedom",
+      "client": "Cash App",
+      "title": "Cash App: Redefining Financial Freedom for Gen-Z"
+    }
+  },
+  {
+    "slug": "cashapp-financial-freedom",
+    "title": "Cash App: Redefining Financial Freedom for Gen-Z",
+    "client": "Cash App",
+    "tag": "Growth Marketing",
+    "summary": "Strategic repositioning from peer-to-peer payments to comprehensive banking solution, achieving 19% lower CPA and establishing Cash App as the go-to financial platform for young adults.",
+    "image": "/campaigns/cashapp.png",
+    "header": {
+      "bg": "gray-50",
+      "darkBg": "gray-900"
+    },
+    "main": {
+      "sections": [
+        {
+          "heading": "The Challenge",
+          "content": [
+            "Cash App was primarily perceived as a peer-to-peer payment app, limiting its growth potential among Gen-Z users who were seeking comprehensive financial solutions. The challenge was to reposition Cash App as a full-service banking platform while maintaining its core brand identity and user trust.",
+            "Traditional banking messaging wasn't resonating with our target demographic, who valued authenticity, simplicity, and financial empowerment over traditional banking benefits."
+          ]
+        },
+        {
+          "heading": "Strategic Solution",
+          "content": [
+            "We developed the 'Financial Freedom' campaign that positioned Cash App not just as a payment tool, but as a gateway to financial independence for young adults. The strategy focused on three key pillars:",
+            "Empowerment Messaging: Shifted from features to outcomes, emphasizing how Cash App enables financial goals",
+            "Cultural Relevance: Integrated trending topics, memes, and Gen-Z language patterns",
+            "Social Proof: Leveraged user-generated content and micro-influencer partnerships"
+          ]
+        },
+        {
+          "heading": "Campaign Execution",
+          "content": [
+            "Developed a systematic approach to testing creative, messaging, and targeting across 4 growth marketing cycles, with each cycle surpassing previous performance records.",
+            "Created attention-grabbing creative that spoke directly to Gen-Z's financial aspirations, using platform-native formats and unexpected messaging to drive engagement and conversions.",
+            "Optimized performance across Meta and TikTok platforms, adapting creative and messaging for each platform's unique audience behaviors and conversion patterns."
+          ]
+        }
+      ],
+      "sidebar": {
+        "role": [
+          "Led 8+ person team across 4 growth marketing cycles",
+          "Social-first creative strategy",
+          "Performance optimization",
+          "Gen-Z positioning strategy"
+        ],
+        "results": [
+          { "label": "Lower CPA on Meta", "value": "-19%" },
+          { "label": "Lower CPA on TikTok", "value": "-15%" },
+          { "label": "Each surpassed previous records", "value": "4 Cycles" }
+        ]
+      }
+    },
+    "nextProject": {
+      "slug": "fiat-la-dolce-vita",
+      "client": "Fiat",
+      "title": "La Dolce Vita Launch Campaign"
+    }
+  }
+] 
