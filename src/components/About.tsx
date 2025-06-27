@@ -53,13 +53,13 @@ const experience = [
 
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-white dark:bg-black">
+    <section id="about" className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">
+          <h2 className="text-4xl font-bold mb-6 text-foreground">
             About Me
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             I bring an athlete&rsquo;s mindset to marketing – disciplined, competitive, and always focused on winning. 
             With 14+ years exclusively agency-side, I&rsquo;ve mastered the art of turning big brand visions into 
             campaigns that don&rsquo;t just perform, they captivate.
@@ -69,10 +69,10 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-start mb-20">
           {/* Personal Story */}
           <div>
-            <h3 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-white">
+            <h3 className="text-2xl font-semibold mb-6 text-foreground">
               My Story
             </h3>
-            <div className="space-y-4 text-gray-600 dark:text-gray-300">
+            <div className="space-y-4 text-muted-foreground">
               <p>
                 My journey started on the tennis courts as a D1 athlete, where I learned that success comes from 
                 relentless preparation, strategic thinking, and the ability to perform under pressure. These same 
@@ -92,22 +92,22 @@ export default function About() {
 
           {/* Skills Grid */}
           <div>
-            <h3 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-white">
+            <h3 className="text-2xl font-semibold mb-6 text-foreground">
               Core Expertise
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {skills.map((skill) => (
                 <div
                   key={skill.name}
-                  className="p-4 bg-gray-50 dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700"
+                  className="p-4 bg-card rounded-xl border border-border"
                 >
                   <div className="flex items-center gap-3 mb-2">
-                    <div className="w-8 h-8 bg-brand-100 rounded-lg flex items-center justify-center">
-                      <skill.icon className="w-4 h-4 text-brand-600" />
+                    <div className="w-8 h-8 bg-secondary rounded-lg flex items-center justify-center">
+                      <skill.icon className="w-4 h-4 text-primary" />
                     </div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">{skill.name}</h4>
+                    <h4 className="font-semibold text-card-foreground">{skill.name}</h4>
                   </div>
-                  <p className="text-sm text-gray-600 dark:text-gray-300">{skill.description}</p>
+                  <p className="text-sm text-muted-foreground">{skill.description}</p>
                 </div>
               ))}
             </div>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import FontCycler from "@/components/FontCycler";
+import ColorCycler from "@/components/ColorCycler";
 
 export const metadata: Metadata = {
   title: "Natalie Colbert - Creative Strategist",
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body>
         {children}
         <FontCycler />
+        <ColorCycler />
       </body>
     </html>
   );

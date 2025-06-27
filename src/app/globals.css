@@ -1,17 +1,33 @@
 @import "tailwindcss";
 
 :root {
+  /* Font Variables */
   --font-heading: "Inter", sans-serif;
   --font-body: "Inter", sans-serif;
   --font-heading-weight: 600;
   --font-body-weight: 400;
+
+  /* Color Variables */
+  --color-primary: #8B7355;
+  --color-primary-hover: #6B5A44;
+  --color-secondary: #F5F1EB;
+  --color-accent: #E8A87C;
+  --color-background: #FEFCF8;
+  --color-foreground: #2C2419;
+  --color-muted: #F0EBE3;
+  --color-muted-foreground: #6B5A44;
+  --color-border: #E8E1D8;
+  --color-card: #FFFFFF;
+  --color-card-foreground: #2C2419;
 }
 
 body {
-  @apply bg-white text-[#171717] antialiased;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
   font-family: var(--font-body);
   font-weight: var(--font-body-weight);
   scroll-behavior: smooth;
+  @apply antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,6 +36,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ::selection {
-  background-color: #d977ff;
-  color: #ffffff;
+  background-color: var(--color-accent);
+  color: var(--color-card);
 }

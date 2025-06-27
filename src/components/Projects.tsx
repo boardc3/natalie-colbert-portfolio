@@ -81,18 +81,18 @@ const campaigns: Campaign[] = [
 
 export default function Projects() {
   return (
-    <section id="work" className="py-24 bg-white dark:bg-black">
+    <section id="work" className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-6 text-gray-900 dark:text-white">
+          <h2 className="text-4xl font-bold mb-6 text-foreground">
             Select Works
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Campaigns that transformed marketing challenges for global giants and innovative disruptors, 
             from viral Super Bowl phenomena to culturally sharp social-first strategies.
           </p>
-          <div className="mt-6 p-4 bg-brand-50 dark:bg-brand-900/20 rounded-lg max-w-4xl mx-auto">
-            <p className="text-sm text-brand-700 dark:text-brand-300">
+          <div className="mt-6 p-4 bg-secondary rounded-lg max-w-4xl mx-auto">
+            <p className="text-sm text-primary">
               <strong>Disclaimer:</strong> My portfolio primarily showcases tangible campaign executions. 
               Much of my work involves in-depth strategy development and long-range vision planning under strict NDAs. 
               I can speak to more strategic contributions on a call.
@@ -106,7 +106,7 @@ export default function Projects() {
             <Link
               key={campaign.slug}
               href={`/work/${campaign.slug}`}
-              className="group bg-gray-50 dark:bg-gray-900 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              className="group bg-card rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-border"
             >
               <div className="relative h-48 overflow-hidden">
                 <Image
@@ -124,21 +124,21 @@ export default function Projects() {
               
               <div className="p-6">
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-brand-600 font-semibold text-sm">{campaign.client}</span>
-                  <span className="text-xs text-gray-500 dark:text-gray-400 bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded-full">
+                  <span className="text-primary font-semibold text-sm">{campaign.client}</span>
+                  <span className="text-xs text-muted-foreground bg-muted px-2 py-1 rounded-full">
                     {campaign.category}
                   </span>
                 </div>
                 
-                <h3 className="text-lg font-semibold mb-3 text-gray-900 dark:text-white group-hover:text-brand-600 transition-colors">
+                <h3 className="text-lg font-semibold mb-3 text-card-foreground group-hover:text-primary transition-colors">
                   {campaign.title}
                 </h3>
                 
-                <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed line-clamp-3">
+                <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
                   {campaign.overview}
                 </p>
                 
-                <div className="mt-4 flex items-center text-brand-600 text-sm font-medium">
+                <div className="mt-4 flex items-center text-primary text-sm font-medium">
                   View Case Study
                   <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                 </div>

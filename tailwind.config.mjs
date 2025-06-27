@@ -1,30 +1,29 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        brand: {
-          DEFAULT: "#a21bff",
-          50: "#fdf5ff",
-          100: "#f8e8ff",
-          200: "#f0ccff",
-          300: "#e5a9ff",
-          400: "#d977ff",
-          500: "#c241ff",
-          600: "#a21bff",
-          700: "#8614e8",
-          800: "#5b0db6",
-          900: "#3b0a78",
+        primary: {
+          DEFAULT: "var(--color-primary)",
+          hover: "var(--color-primary-hover)",
         },
-        accent: "#FF5621",
-        background: "#ffffff",
-        foreground: "#171717",
-        text: {
-          DEFAULT: "#171717",
-          light: "#ededed",
+        secondary: "var(--color-secondary)",
+        accent: "var(--color-accent)",
+        background: "var(--color-background)",
+        foreground: "var(--color-foreground)",
+        muted: {
+          DEFAULT: "var(--color-muted)",
+          foreground: "var(--color-muted-foreground)",
+        },
+        border: "var(--color-border)",
+        card: {
+          DEFAULT: "var(--color-card)",
+          foreground: "var(--color-card-foreground)",
         },
         gray: {
           50: "#f9fafb",
@@ -42,13 +41,19 @@ export default {
       fontFamily: {
         sans: ["var(--font-geist-sans)", "sans-serif"],
         mono: ["var(--font-geist-mono)", "monospace"],
+        heading: "var(--font-heading)",
+        body: "var(--font-body)",
       },
       borderRadius: {
         DEFAULT: "0.75rem",
         lg: "1.25rem",
+        'card': '12px',
+        'button': '8px',
       },
       boxShadow: {
         card: "0 8px 24px rgba(0,0,0,.07)",
+        'card': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+        'card-hover': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
       },
       container: {
         center: true,

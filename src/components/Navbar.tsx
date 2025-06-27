@@ -13,14 +13,14 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 inset-x-0 z-50 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md border-b border-gray-200 dark:border-gray-700">
+    <header className="fixed top-0 inset-x-0 z-50 bg-card/90 backdrop-blur-md border-b border-border">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
-        <a href="#home" className="font-bold text-xl text-gray-900 dark:text-white">
+        <a href="#home" className="font-bold text-xl text-foreground">
           Natalie Colbert
         </a>
 
         <button
-          className="md:hidden p-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+          className="md:hidden p-2 text-muted-foreground hover:text-foreground"
           onClick={() => setOpen(!open)}
           aria-label="Toggle navigation"
         >
@@ -32,7 +32,7 @@ export default function Navbar() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-400 transition-colors"
+                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
               >
                 {link.label}
               </a>
@@ -43,14 +43,14 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700">
+        <div className="md:hidden bg-card border-t border-border">
           <ul className="px-4 py-4 space-y-4">
             {links.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="block text-lg font-medium text-gray-600 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-400 transition-colors"
+                  className="block text-lg font-medium text-muted-foreground hover:text-primary transition-colors"
                 >
                   {link.label}
                 </a>
