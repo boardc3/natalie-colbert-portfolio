@@ -81,19 +81,50 @@ const campaigns: Campaign[] = [
 
 export default function Projects() {
   return (
-    <section id="work" className="py-24 bg-background">
+    <section id="work" className="py-24" style={{ backgroundColor: 'var(--color-background)' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-6 text-foreground">
-            Select Works
+          <div className="mb-8">
+            <span 
+              className="inline-block px-6 py-3 rounded-full text-sm font-bold tracking-wider uppercase"
+              style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-card)' }}
+            >
+              Portfolio Highlights
+            </span>
+          </div>
+          
+          <h2 className="text-4xl md:text-5xl font-bold mb-8 leading-tight" style={{ color: 'var(--color-foreground)' }}>
+            Select{" "}
+            <span className="relative inline-block">
+              <span 
+                className="bg-gradient-to-r bg-clip-text text-transparent font-black"
+                style={{ 
+                  backgroundImage: `linear-gradient(to right, var(--color-primary), var(--color-accent))`,
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent'
+                }}
+              >
+                Works
+              </span>
+              <div 
+                className="absolute -bottom-2 left-0 right-0 h-1 opacity-50"
+                style={{ 
+                  background: `linear-gradient(to right, var(--color-primary), var(--color-accent))`
+                }}
+              ></div>
+            </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Campaigns that transformed marketing challenges for global giants and innovative disruptors, 
+          
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            Campaigns that transformed marketing challenges for{" "}
+            <em className="text-primary font-semibold not-italic">global giants</em> and{" "}
+            <em className="text-primary font-semibold not-italic">innovative disruptors</em>, 
             from viral Super Bowl phenomena to culturally sharp social-first strategies.
           </p>
-          <div className="mt-6 p-4 bg-secondary rounded-lg max-w-4xl mx-auto">
-            <p className="text-sm text-primary">
-              <strong>Disclaimer:</strong> My portfolio primarily showcases tangible campaign executions. 
+          
+          <div className="mt-8 p-6 bg-secondary rounded-2xl max-w-4xl mx-auto border border-border">
+            <p className="text-sm text-muted-foreground">
+              <span className="text-primary font-semibold">Portfolio Note:</span> This showcases tangible campaign executions. 
               Much of my work involves in-depth strategy development and long-range vision planning under strict NDAs. 
               I can speak to more strategic contributions on a call.
             </p>

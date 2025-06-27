@@ -76,13 +76,13 @@ export default function ColorCycler() {
             style={{ backgroundColor: currentScheme.colors.background }}
           />
         </div>
-        <div className="text-xs text-gray-400 mt-1">
+        <div className="text-xs text-white/50 mt-1">
           Press "C" to cycle colors ({currentColorIndex + 1}/{colorSchemes.length})
         </div>
       </div>
 
       {/* Instructions (always visible, subtle) */}
-      <div className="fixed bottom-4 left-4 text-xs text-gray-400 z-40 pointer-events-none">
+      <div className="fixed bottom-4 left-4 text-xs text-muted-foreground z-40 pointer-events-none">
         Press "C" for colors
       </div>
     </>

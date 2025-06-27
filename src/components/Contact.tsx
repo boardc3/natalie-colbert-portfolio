@@ -96,7 +96,7 @@ export default function Contact() {
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <a
                 href="mailto:natalie@example.com"
-                className="inline-flex items-center justify-center gap-3 rounded-lg bg-brand-600 px-8 py-4 text-white hover:bg-brand-700 transition-colors font-medium text-lg"
+                className="inline-flex items-center justify-center gap-3 rounded-lg bg-primary px-8 py-4 text-card hover:bg-primary-hover transition-colors font-medium text-lg"
               >
                 <Mail className="w-5 h-5" />
                 Get in touch
@@ -105,7 +105,7 @@ export default function Contact() {
                 href="https://calendly.com/natalie-colbert"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-3 rounded-lg border-2 border-brand-600 px-8 py-4 text-brand-600 hover:bg-brand-50 transition-colors font-medium text-lg"
+                className="inline-flex items-center justify-center gap-3 rounded-lg border-2 border-primary px-8 py-4 text-primary hover:bg-secondary transition-colors font-medium text-lg"
               >
                 <Calendar className="w-5 h-5" />
                 Schedule a call
@@ -118,7 +118,7 @@ export default function Contact() {
                 href="https://www.linkedin.com/in/natalie-colbert"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-12 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-brand-600 hover:shadow-md transition-all"
+                className="w-12 h-12 bg-card rounded-lg shadow-sm border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:shadow-md transition-all"
               >
                 <Linkedin className="w-5 h-5" />
                 <span className="sr-only">LinkedIn</span>
@@ -128,17 +128,17 @@ export default function Contact() {
 
           {/* Right side - Simple card */}
           <div className="hidden lg:block">
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-3xl shadow-xl border border-gray-200 dark:border-gray-700">
+            <div className="bg-card p-8 rounded-3xl shadow-xl border border-border">
               <div className="text-center">
-                <div className="w-20 h-20 bg-brand-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                  <Mail className="w-10 h-10 text-brand-600" />
+                <div className="w-20 h-20 bg-secondary rounded-2xl flex items-center justify-center mx-auto mb-6">
+                  <Mail className="w-10 h-10 text-primary" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Ready to start?</h3>
-                <p className="text-gray-600 dark:text-gray-300 mb-6">
+                <p className="text-muted-foreground mb-6">
                   Let&rsquo;s discuss your brand challenges, strategic goals, and how we can create 
                   marketing that&rsquo;s not just effective, but unforgettable.
                 </p>
-                <div className="space-y-3 text-sm text-gray-500">
+                <div className="space-y-3 text-sm text-muted-foreground">
                   <div className="flex items-center justify-center gap-2">
                     <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                     Based in Laguna Beach, CA
