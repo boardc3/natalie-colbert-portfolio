@@ -16,7 +16,7 @@ export function Highlight({ children, variant = "gradient", className = "" }: Hi
           <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent font-semibold">
             {children}
           </span>
-          <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-primary to-accent opacity-40"></div>
+          <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-primary to-accent opacity-40 block"></span>
         </span>
       );
     
@@ -24,7 +24,7 @@ export function Highlight({ children, variant = "gradient", className = "" }: Hi
       return (
         <span className={`${baseClasses} ${className}`}>
           <span className="text-primary font-semibold">{children}</span>
-          <div className="absolute -bottom-0.5 left-0 right-0 h-0.5 bg-primary opacity-60"></div>
+          <span className="absolute -bottom-0.5 left-0 right-0 h-0.5 bg-primary opacity-60 block"></span>
         </span>
       );
     

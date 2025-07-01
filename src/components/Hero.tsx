@@ -64,10 +64,10 @@ export default function Hero() {
             designing the systems to bring them to{" "}
             <span className="relative inline-block font-bold" style={{ color: 'var(--color-primary)' }}>
               flawless, results-driven life
-              <div 
-                className="absolute -bottom-1 left-0 right-0 h-1 opacity-60"
+              <span 
+                className="absolute -bottom-1 left-0 right-0 h-1 opacity-60 block"
                 style={{ backgroundColor: 'var(--color-primary)' }}
-              ></div>
+              ></span>
             </span>.
           </p>
           
