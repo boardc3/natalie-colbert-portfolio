@@ -165,7 +165,7 @@ export default function About() {
                           : 'var(--color-card)',
                         borderColor: 'var(--color-border)',
                         border: '3px solid',
-                        ...(job.highlight && { '--tw-ring-color': 'var(--color-primary)' } as any)
+                        ...(job.highlight && { '--tw-ring-color': 'var(--color-primary)' } as React.CSSProperties)
                       }}
                     >
                       <job.icon 
@@ -188,7 +188,7 @@ export default function About() {
                         borderColor: job.highlight 
                           ? 'var(--color-primary)' 
                           : 'var(--color-border)',
-                        ...(job.highlight && { '--tw-ring-color': 'var(--color-primary)' } as any)
+                        ...(job.highlight && { '--tw-ring-color': 'var(--color-primary)' } as React.CSSProperties)
                       }}
                     >
                       <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-3">
