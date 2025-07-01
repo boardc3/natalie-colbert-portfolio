@@ -100,10 +100,6 @@ export default function Hero() {
           </div>
 
           <div className="flex items-center justify-center lg:justify-start gap-8 text-lg" style={{ color: 'var(--color-muted-foreground)' }}>
-            <div className="flex items-center gap-3">
-              <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-              <span className="font-medium">Available for projects</span>
-            </div>
             <div className="font-medium">Based in Laguna Beach, CA</div>
           </div>
         </motion.div>

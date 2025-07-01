@@ -3,7 +3,7 @@ import projects from "@/data/projects.json";
 import { Project } from "@/data/types";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, Target, TrendingUp, Calendar, Users, Sparkles } from "lucide-react";
+import { ArrowLeft, Target, TrendingUp, Sparkles } from "lucide-react";
 import { Highlight } from "@/components/TypographyElements";
 
 export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {

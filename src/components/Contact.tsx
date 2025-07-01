@@ -1,5 +1,5 @@
 'use client';
-import { Mail, Linkedin, MessageSquare, Calendar, Star } from "lucide-react";
+import { Mail, Linkedin, Star } from "lucide-react";
 
 const testimonials = [
   {
@@ -66,56 +66,17 @@ export default function Contact() {
               let&rsquo;s discuss how we can create unforgettable marketing.
             </p>
 
-            <div className="space-y-4 mb-8">
-              <div className="flex items-center gap-4 text-muted-foreground">
-                <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center">
-                  <MessageSquare className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <div className="font-medium">Response time</div>
-                  <div className="text-sm text-muted-foreground">I&rsquo;m a straight shooter - quick and transparent</div>
-                </div>
-              </div>
-              <div className="flex items-center gap-4 text-muted-foreground">
-                <div className="w-10 h-10 bg-secondary rounded-lg flex items-center justify-center">
-                  <Calendar className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <div className="font-medium">Availability</div>
-                  <div className="text-sm text-muted-foreground">
-                    <span className="inline-flex items-center gap-1">
-                      <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                      Open for strategic consulting and leadership roles
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             {/* Contact buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 mb-8">
+            <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-8">
               <a
-                href="mailto:natalie@example.com"
+                href="mailto:nataliejcolbert@gmail.com"
                 className="inline-flex items-center justify-center gap-3 rounded-lg bg-primary px-8 py-4 text-card hover:bg-primary-hover transition-colors font-medium text-lg"
               >
                 <Mail className="w-5 h-5" />
                 Get in touch
               </a>
               <a
-                href="https://calendly.com/natalie-colbert"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-3 rounded-lg border-2 border-primary px-8 py-4 text-primary hover:bg-secondary transition-colors font-medium text-lg"
-              >
-                <Calendar className="w-5 h-5" />
-                Schedule a call
-              </a>
-            </div>
-
-            {/* Social links */}
-            <div className="flex items-center justify-center lg:justify-start gap-6">
-              <a
-                href="https://www.linkedin.com/in/natalie-colbert"
+                href="https://www.linkedin.com/in/natalie-colbert-137aa72a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-card rounded-lg shadow-sm border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:shadow-md transition-all"

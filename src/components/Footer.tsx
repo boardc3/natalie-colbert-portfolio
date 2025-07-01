@@ -21,14 +21,14 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="mailto:natalie@example.com"
+                href="mailto:nataliejcolbert@gmail.com"
                 className="w-10 h-10 bg-muted rounded-lg flex items-center justify-center text-muted-foreground hover:text-card hover:bg-primary transition-colors"
               >
                 <Mail className="w-5 h-5" />
                 <span className="sr-only">Email</span>
               </a>
               <a
-                href="https://www.linkedin.com/in/natalie-colbert"
+                href="https://www.linkedin.com/in/natalie-colbert-137aa72a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-muted rounded-lg flex items-center justify-center text-muted-foreground hover:text-card hover:bg-primary transition-colors"
@@ -61,16 +61,14 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Get in Touch</h4>
             <div className="space-y-2 text-muted">
               <p>Based in Laguna Beach, CA</p>
-              <p>Available for strategic consulting</p>
-              <p>and leadership roles</p>
             </div>
             <div className="mt-4">
               <a
-                href="mailto:natalie@example.com"
+                href="mailto:nataliejcolbert@gmail.com"
                 className="inline-flex items-center gap-2 text-accent hover:text-primary transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                natalie@example.com
+                nataliejcolbert@gmail.com
               </a>
             </div>
           </div>
