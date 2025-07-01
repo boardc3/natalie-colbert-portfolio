@@ -47,7 +47,7 @@ export default function TypographyShowcase() {
           </h1>
           
           <p className="text-xl md:text-2xl max-w-4xl mx-auto leading-relaxed" style={{ color: 'var(--color-muted-foreground)' }}>
-            Where <Highlight variant="emphasis">strategic thinking</Highlight> meets <Highlight variant="underline">cultural insight</Highlight> to create campaigns that don't just perform—they{" "}
+            Where <Highlight variant="emphasis">strategic thinking</Highlight> meets <Highlight variant="underline">cultural insight</Highlight> to create campaigns that don&apos;t just perform—they{" "}
             <Highlight variant="gradient">captivate, convert, and inspire</Highlight>.
           </p>
         </motion.div>
@@ -85,7 +85,7 @@ export default function TypographyShowcase() {
               borderColor: 'var(--color-border)' 
             }}
           >
-            <div className="text-4xl mb-4" style={{ color: 'var(--color-accent)' }}>"</div>
+            <div className="text-4xl mb-4" style={{ color: 'var(--color-accent)' }}>&quot;</div>
             <blockquote className="text-lg font-medium italic mb-4" style={{ color: 'var(--color-card-foreground)' }}>
               Think of me as a <Highlight variant="underline">builder with taste</Highlight>
             </blockquote>
@@ -213,7 +213,7 @@ export default function TypographyShowcase() {
               </span>?
             </h3>
             <p className="text-xl mb-8 opacity-90">
-              Let's discuss how <strong>strategic thinking</strong> and <strong>cultural insight</strong> can transform your brand
+              Let&apos;s discuss how <strong>strategic thinking</strong> and <strong>cultural insight</strong> can transform your brand
             </p>
             <a 
               href="#contact"

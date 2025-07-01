@@ -56,13 +56,13 @@ export default function FontCycler() {
 
     window.addEventListener('keydown', handleKeyPress);
     return () => window.removeEventListener('keydown', handleKeyPress);
-  }, [currentFontIndex]);
+  }, [cycleFont]);
 
   // Initialize with first font
   useEffect(() => {
     loadGoogleFont(currentFont);
     updateFontVariables(currentFont);
-  }, []);
+  }, [currentFont]);
 
   return (
     <>
@@ -75,13 +75,13 @@ export default function FontCycler() {
           H: {currentFont.heading.family} • B: {currentFont.body.family}
         </div>
         <div className="text-xs text-white/50 mt-1">
-          Press "F" to cycle fonts ({currentFontIndex + 1}/{fontCombinations.length})
+          Press &quot;F&quot; to cycle fonts ({currentFontIndex + 1}/{fontCombinations.length})
         </div>
       </div>
 
       {/* Instructions (always visible, subtle) */}
       <div className="fixed bottom-4 right-4 text-xs text-muted-foreground z-40 pointer-events-none">
-        Press "F" for fonts
+        Press &quot;F&quot; for fonts
       </div>
     </>
   );

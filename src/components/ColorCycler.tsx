@@ -48,12 +48,12 @@ export default function ColorCycler() {
 
     window.addEventListener('keydown', handleKeyPress);
     return () => window.removeEventListener('keydown', handleKeyPress);
-  }, [currentColorIndex]);
+  }, [cycleColors]);
 
   // Initialize with first color scheme
   useEffect(() => {
     updateColorVariables(currentScheme);
-  }, []);
+  }, [currentScheme]);
 
   return (
     <>
@@ -77,13 +77,13 @@ export default function ColorCycler() {
           />
         </div>
         <div className="text-xs text-white/50 mt-1">
-          Press "C" to cycle colors ({currentColorIndex + 1}/{colorSchemes.length})
+          Press &quot;C&quot; to cycle colors ({currentColorIndex + 1}/{colorSchemes.length})
         </div>
       </div>
 
       {/* Instructions (always visible, subtle) */}
       <div className="fixed bottom-4 left-4 text-xs text-muted-foreground z-40 pointer-events-none">
-        Press "C" for colors
+        Press &quot;C&quot; for colors
       </div>
     </>
   );

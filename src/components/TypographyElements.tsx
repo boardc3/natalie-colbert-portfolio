@@ -81,7 +81,7 @@ interface QuoteProps {
 export function Quote({ quote, author, className = "" }: QuoteProps) {
   return (
     <blockquote className={`${className}`}>
-      <div className="text-3xl text-accent mb-4 leading-none">"</div>
+      <div className="text-3xl text-accent mb-4 leading-none">&quot;</div>
       <p className="text-lg md:text-xl font-medium text-card-foreground italic mb-4 leading-relaxed">
         {quote}
       </p>
