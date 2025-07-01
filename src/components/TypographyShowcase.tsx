@@ -13,7 +13,7 @@ export default function TypographyShowcase() {
           transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
-          <div className="mb-8">
+          <div className="mb-4 md:mb-8">
             <span 
               className="inline-block px-6 py-3 rounded-full text-sm font-medium tracking-wide uppercase"
               style={{ 
@@ -25,7 +25,7 @@ export default function TypographyShowcase() {
             </span>
           </div>
           
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight" style={{ color: 'var(--color-foreground)' }}>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-8 leading-tight" style={{ color: 'var(--color-foreground)' }}>
             Crafting{" "}
             <span className="relative">
               <span 
@@ -37,7 +37,7 @@ export default function TypographyShowcase() {
                 Memorable
               </span>
               <div 
-                className="absolute -bottom-2 left-0 right-0 h-1 opacity-30"
+                className="absolute -bottom-1.5 md:-bottom-2 left-0 right-0 h-1 opacity-30"
                 style={{
                   backgroundImage: `linear-gradient(to right, var(--color-primary), var(--color-accent))`
                 }}

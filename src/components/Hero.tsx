@@ -5,7 +5,7 @@ import { ArrowDown } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden" style={{ backgroundColor: 'var(--color-background)' }}>
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16" style={{ backgroundColor: 'var(--color-background)' }}>
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-72 h-72 rounded-full opacity-20 blur-3xl" style={{ backgroundColor: 'var(--color-primary)' }}></div>
@@ -20,13 +20,13 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="text-center lg:text-left"
         >
-          <div className="mb-8">
+          <div className="mt-4 md:mt-0 mb-4 md:mb-8">
             <span className="inline-block px-6 py-3 rounded-full text-sm font-bold tracking-wider uppercase" style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-card)' }}>
               Brand Marketing Strategist
             </span>
           </div>
           
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight" style={{ color: 'var(--color-foreground)' }}>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-8 leading-tight" style={{ color: 'var(--color-foreground)' }}>
             Hey there,{" "}
             <span className="block mt-2">
               I&rsquo;m{" "}
