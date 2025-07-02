@@ -5,7 +5,7 @@ import { ArrowDown } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16" style={{ backgroundColor: 'var(--color-background)' }}>
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16" style={{ backgroundColor: 'var(--color-muted)' }}>
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-72 h-72 rounded-full opacity-20 blur-3xl" style={{ backgroundColor: 'var(--color-primary)' }}></div>

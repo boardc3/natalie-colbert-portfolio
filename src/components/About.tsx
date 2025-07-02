@@ -65,9 +65,9 @@ export default function About() {
     <section id="about" className="py-24" style={{ backgroundColor: 'var(--color-background)' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div className="grid lg:grid-cols-2 gap-16 items-start mb-20">
+        <div className="grid lg:grid-cols-3 gap-16 items-start mb-20">
           {/* Personal Story */}
-          <div>
+          <div className="lg:col-span-2">
             <h3 className="text-2xl font-semibold mb-6" style={{ color: 'var(--color-foreground)' }}>
               My Story
             </h3>
@@ -81,11 +81,11 @@ export default function About() {
           </div>
 
           {/* Skills Grid */}
-          <div>
+          <div className="lg:col-span-1">
             <h3 className="text-2xl font-semibold mb-6" style={{ color: 'var(--color-foreground)' }}>
               Core Expertise
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-4">
               {skills.map((skill) => (
                 <div
                   key={skill.name}
@@ -201,41 +201,6 @@ export default function About() {
             </div>
           </div>
         </div>
-
-        {/* Call to Action */}
-        <motion.div 
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-center mt-16"
-        >
-          <div 
-            className="p-8 rounded-2xl border"
-            style={{ 
-              backgroundColor: 'var(--color-secondary)', 
-              borderColor: 'var(--color-border)' 
-            }}
-          >
-            <Award className="w-12 h-12 mx-auto mb-4" style={{ color: 'var(--color-primary)' }} />
-            <h3 className="text-2xl font-semibold mb-4" style={{ color: 'var(--color-foreground)' }}>
-              Ready to elevate your brand?
-            </h3>
-            <p className="mb-6 max-w-2xl mx-auto" style={{ color: 'var(--color-muted-foreground)' }}>
-              Let&rsquo;s discuss how my strategic approach and proven track record can help your brand 
-              break through the noise and achieve remarkable results.
-            </p>
-            <a
-              href="#contact"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-lg transition-colors font-medium"
-              style={{ 
-                backgroundColor: 'var(--color-primary)', 
-                color: 'var(--color-card)' 
-              }}
-            >
-              Let&rsquo;s Connect
-            </a>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

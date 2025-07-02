@@ -81,7 +81,7 @@ const campaigns: Campaign[] = [
 
 export default function Projects() {
   return (
-    <section id="work" className="py-24" style={{ backgroundColor: 'var(--color-background)' }}>
+    <section id="work" className="py-24" style={{ backgroundColor: 'var(--color-muted)' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="mb-8">
