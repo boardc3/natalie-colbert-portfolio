@@ -4,7 +4,6 @@ import { Project } from "@/data/types";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Target, TrendingUp, Sparkles } from "lucide-react";
-import { Highlight } from "@/components/TypographyElements";
 
 export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -48,7 +47,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 className="text-4xl md:text-5xl font-bold mb-6"
                 style={{ color: 'var(--color-foreground)' }}
               >
-                <Highlight variant="gradient">{project.title}</Highlight>
+                {project.title}
               </h1>
               <p 
                 className="text-xl mb-8"
@@ -89,7 +88,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                       className="text-2xl md:text-3xl font-bold mb-6"
                       style={{ color: 'var(--color-foreground)' }}
                     >
-                      <Highlight variant="underline">{section.heading}</Highlight>
+                      {section.heading}
                     </h2>
                     <div className="prose prose-lg max-w-none">
                       {section.content.map((c, j) => (
@@ -121,7 +120,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                       style={{ color: 'var(--color-card-foreground)' }}
                     >
                       <Target className="w-5 h-5" style={{ color: 'var(--color-primary)' }} />
-                      <Highlight variant="badge">My Role</Highlight>
+                      My Role
                     </h3>
                     <ul className="space-y-3">
                       {project.main.sidebar.role.map((role, i) => (
@@ -155,7 +154,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                       style={{ color: 'var(--color-card-foreground)' }}
                     >
                       <TrendingUp className="w-5 h-5" style={{ color: 'var(--color-primary)' }} />
-                      <Highlight variant="badge">Results</Highlight>
+                      Results
                     </h3>
                     <div className="space-y-4">
                       {project.main.sidebar.results.map((result, i) => (
@@ -171,7 +170,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                             className="text-2xl font-bold mb-1"
                             style={{ color: 'var(--color-primary)' }}
                           >
-                            <Highlight variant="emphasis">{result.value}</Highlight>
+                            {result.value}
                           </div>
                           <div 
                             className="text-sm"
@@ -197,7 +196,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                       className="font-semibold mb-3"
                       style={{ color: 'var(--color-foreground)' }}
                     >
-                      <Highlight variant="badge">Next Project</Highlight>
+                      Next Project
                     </h3>
                     <Link
                       href={`/work/${project.nextProject.slug}`}
@@ -213,7 +212,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                         className="font-semibold"
                         style={{ color: 'var(--color-foreground)' }}
                       >
-                        <Highlight variant="underline">{project.nextProject.title}</Highlight>
+                        {project.nextProject.title}
                       </div>
                     </Link>
                   </div>

@@ -1,6 +1,6 @@
 'use client';
 import { Star } from "lucide-react";
-import { motion, type HTMLMotionProps } from "framer-motion";
+import { motion as m } from "framer-motion";
 
 const testimonials = [
   {
@@ -30,24 +30,24 @@ export default function Contact() {
     <section id="contact" className="py-16 bg-muted">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <motion.h3 
+          <m.h3 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             className="text-2xl font-semibold mb-12 text-muted-foreground"
           >
             What clients and collaborators say
-          </motion.h3>
+          </m.h3>
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {testimonials.map((testimonial, index) => {
-              const motionProps: HTMLMotionProps<"div"> = {
+              const motionProps = {
                 initial: { opacity: 0, y: 20 },
                 whileInView: { opacity: 1, y: 0 },
                 transition: { duration: 0.5, delay: index * 0.1 }
               };
               
               return (
-                <motion.div
+                <m.div
                   key={testimonial.name}
                   {...motionProps}
                   className="bg-card p-8 rounded-2xl shadow-sm border border-border"
@@ -71,7 +71,7 @@ export default function Contact() {
                       <div className="text-muted-foreground text-xs">{testimonial.role}</div>
                     </div>
                   </div>
-                </motion.div>
+                </m.div>
               );
             })}
           </div>
