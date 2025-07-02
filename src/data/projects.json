@@ -11,7 +11,39 @@
       "darkBg": "gray-900"
     },
     "main": {
-      "description": "Detailed case study coming soon. This innovative TikTok strategy showcased authentic community engagement and strong creative thinking across diverse subcommunities."
+      "sections": [
+        {
+          "heading": "The Challenge",
+          "content": [
+            "Airbnb wanted to shift from generic travel content and reach a broader audience on TikTok. The goal: connect the unique communities on TikTok to the Stays that represent them."
+          ]
+        },
+        {
+          "heading": "Strategic Solution",
+          "content": [
+            "We created a creative strategy that let us speak authentically to all of TikTok's subcommunities, from TravelTok to BookTok to CelebrityTok and beyond.",
+            "To break through on TikTok's For You Page didn't mean diluting your message to a one-size fits all. Instead, the more niche you got, the more chances you had at winning attention. So we made a video series of Weirdly Specific lists that paired unique Airbnbs with equally unique TikTok communities. This let Airbnb continue to speak to their loyal travel audiences, while also showing untapped audiences how they could use Airbnb in their own authentic way."
+          ]
+        },
+        {
+          "heading": "Campaign Execution",
+          "content": [
+            "Strategy/ Leadership",
+            "Team Quarterback",
+            "Testing Roadmap Development + Analysis"
+          ]
+        }
+      ],
+      "sidebar": {
+        "role": [
+          "Strategy/ Leadership",
+          "Team Quarterback",
+          "Testing Roadmap Development + Analysis"
+        ],
+        "results": [
+          { "label": "Results", "value": "Project did not get full runway due to internal org shifts, but creative work was strong." }
+        ]
+      }
     },
     "nextProject": {
       "slug": "beats-authentic-tiktok",
@@ -31,7 +63,30 @@
       "darkBg": "gray-900"
     },
     "main": {
-      "description": "Detailed case study coming soon. This groundbreaking campaign earned a Webby Award and Silver Pencil at The One Show, proving that realness triumphs over manufactured authenticity."
+      "sections": [
+        {
+          "heading": "The Challenge",
+          "content": [
+            "True to our ethos of defiance, we recognized TikTok demanded a radically different approach. Instead of chasing a manufactured 'authenticity,' we chose to be unapologetically real."
+          ]
+        },
+        {
+          "heading": "Strategic Solution",
+          "content": [
+            "Our strategy embraced the inherent awkwardness of sponsored content, making it obvious – and highly entertaining. We leveraged self-awareness and subversion, directly speaking to the platform's native behavior. This unconventional content series didn't just cut through the noise; it earned a Webby and a Silver Pencil at The One Show, proving that realness triumphs."
+          ]
+        }
+      ],
+      "sidebar": {
+        "role": [
+          "Strategy/ Leadership",
+          "Analysis & Reporting"
+        ],
+        "results": [
+          { "label": "Webby Award", "value": "Winner" },
+          { "label": "Silver Pencil at The One Show", "value": "Winner" }
+        ]
+      }
     },
     "nextProject": {
       "slug": "cashapp-financial-freedom",
@@ -109,7 +164,34 @@
       "darkBg": "gray-900"
     },
     "main": {
-      "description": "Detailed case study coming soon. This campaign generated 2.5M conversions to website, +1,791% above social benchmarks, and 700M impressions with 270M views."
+      "sections": [
+        {
+          "heading": "The Challenge",
+          "content": [
+            "Founded in 1899, Fiat boasted over 125 years of profound brand recognition in Europe. Yet, in the U.S., it remained a niche Italian brand struggling for broad relevance. The challenge for the 2024 launch of the all-electric Fiat 500e: how to translate deep European heritage into a compelling American narrative.",
+            "The strategy transcended geography, boiling 'Italian-ness' down to a universal way of living: appreciating life's finer details – beauty, passion, color, and style. The new Fiat 500e perfectly embodies these values, making La Dolce Vita accessible to anyone, anywhere."
+          ]
+        },
+        {
+          "heading": "Campaign Execution",
+          "content": [
+            "I led the strategic development and comprehensive orchestration of this 360-degree launch campaign, collaborating seamlessly with media, PR, and the in-house Fiat brand, sales, and product teams to ensure flawless go-to-market execution across every touchpoint."
+          ]
+        }
+      ],
+      "sidebar": {
+        "role": [
+          "Strategic Development & Orchestration",
+          "Cross-functional Team Leadership",
+          "Go-to-Market Execution"
+        ],
+        "results": [
+          { "label": "Conversions to Website", "value": "2.5M" },
+          { "label": "Above Social Benchmarks", "value": "+1,791%" },
+          { "label": "Impressions", "value": "700M" },
+          { "label": "Views", "value": "270M" }
+        ]
+      }
     },
     "nextProject": {
       "slug": "gin-juice-launch",
@@ -129,7 +211,38 @@
       "darkBg": "gray-900"
     },
     "main": {
-      "description": "Detailed case study coming soon. This strategic launch campaign established Gin & Juice as a premium beverage brand while maintaining cultural authenticity and market credibility."
+      "sections": [
+        {
+          "heading": "The Challenge",
+          "content": [
+            "Establishing Snoop Dogg's Gin & Juice as a credible, premium beverage brand in a crowded spirits market required a launch that balanced cultural authenticity with aspirational positioning."
+          ]
+        },
+        {
+          "heading": "Strategic Solution",
+          "content": [
+            "Focused on Snoop Dogg's cultural cachet and storytelling, we crafted a campaign that celebrated both the brand's roots and its premium quality, ensuring it resonated with both core fans and new audiences."
+          ]
+        },
+        {
+          "heading": "Campaign Execution",
+          "content": [
+            "Brand Launch Strategy",
+            "Cultural Positioning",
+            "Market Rollout"
+          ]
+        }
+      ],
+      "sidebar": {
+        "role": [
+          "Strategy/ Leadership",
+          "Brand Launch Strategy",
+          "Cultural Positioning"
+        ],
+        "results": [
+          { "label": "Brand Established in Premium Spirits Market", "value": "Yes" }
+        ]
+      }
     },
     "nextProject": {
       "slug": "hellmanns-make-taste-not-waste",
@@ -149,7 +262,39 @@
       "darkBg": "gray-900"
     },
     "main": {
-      "description": "Detailed case study coming soon. This Super Bowl campaign expanded usage occasions, delivered genuine social impact, and leveraged America's second largest food waste day as a powerful platform."
+      "sections": [
+        {
+          "heading": "The Challenge",
+          "content": [
+            "Hellmann's faced declining sales and lost share, particularly with Millennials who saw it as just a condiment. We pinpointed a new, impactful purpose: one that expanded usage occasions while delivering genuine social impact.",
+            "The key insight? Millennials hate food waste, yet they experience 'Fridge Blindness' – seeing only ingredients, not meals. This was Hellmann's chance to step in."
+          ]
+        },
+        {
+          "heading": "Strategic Solution",
+          "content": [
+            "We transformed Hellmann's into the essential ingredient that helps turn food waste into delicious meals. Our call to action: 'Make Taste, Not Waste.' To achieve maximum resonance, we brought this message to the Super Bowl, leveraging America's second largest food waste day as our powerful platform."
+          ]
+        },
+        {
+          "heading": "Campaign Execution",
+          "content": [
+            "Social Strategy & Rollout Plan",
+            "Super Bowl Activation",
+            "Video: https://www.youtube.com/watch?v=AcXPlxXGiJ0"
+          ]
+        }
+      ],
+      "sidebar": {
+        "role": [
+          "Strategy/ Leadership",
+          "Social Strategy & Rollout Plan"
+        ],
+        "results": [
+          { "label": "Super Bowl Activation", "value": "Yes" },
+          { "label": "Video", "value": "https://www.youtube.com/watch?v=AcXPlxXGiJ0" }
+        ]
+      }
     },
     "nextProject": {
       "slug": "hexclad-area-51",
