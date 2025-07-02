@@ -91,15 +91,27 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                       {section.heading}
                     </h2>
                     <div className="prose prose-lg max-w-none">
-                      {section.content.map((c, j) => (
-                        <p 
-                          key={j} 
-                          className="text-lg leading-relaxed mb-4"
-                          style={{ color: 'var(--color-muted-foreground)' }}
-                        >
-                          {c}
-                        </p>
-                      ))}
+                      {section.content.map((c, j) => {
+                        if (typeof c === 'string' && c.trim().startsWith('<iframe')) {
+                          return (
+                            <div key={j} className="video-embed aspect-w-16 aspect-h-9 w-full my-6">
+                              <div
+                                dangerouslySetInnerHTML={{ __html: c }}
+                                className="w-full h-full"
+                              />
+                            </div>
+                          );
+                        }
+                        return (
+                          <p
+                            key={j}
+                            className="text-lg leading-relaxed mb-4"
+                            style={{ color: 'var(--color-muted-foreground)' }}
+                          >
+                            {c}
+                          </p>
+                        );
+                      })}
                     </div>
                   </section>
                 ))}

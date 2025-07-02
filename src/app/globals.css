@@ -39,3 +39,18 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--color-accent);
   color: var(--color-card);
 }
+
+.video-embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+}
+.video-embed > div, .video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0;
+}
