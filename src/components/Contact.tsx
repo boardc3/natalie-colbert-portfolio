@@ -1,6 +1,6 @@
 'use client';
 import { Star } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, type HTMLMotionProps } from "framer-motion";
 
 const testimonials = [
   {
@@ -29,7 +29,6 @@ export default function Contact() {
   return (
     <section id="contact" className="py-16 bg-muted">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Testimonials */}
         <div className="text-center">
           <motion.h3 
             initial={{ opacity: 0, y: 20 }}
@@ -40,35 +39,41 @@ export default function Contact() {
             What clients and collaborators say
           </motion.h3>
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            {testimonials.map((testimonial, index) => (
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                key={testimonial.name}
-                className="bg-card p-8 rounded-2xl shadow-sm border border-border"
-              >
-                <div className="flex items-center gap-1 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                  ))}
-                </div>
-                <p className="text-muted-foreground mb-6 italic text-left">
-                  &ldquo;{testimonial.content}&rdquo;
-                </p>
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center">
-                    <span className="text-primary font-semibold text-sm">
-                      {testimonial.name.split(' ').map(n => n[0]).join('')}
-                    </span>
+            {testimonials.map((testimonial, index) => {
+              const motionProps: HTMLMotionProps<"div"> = {
+                initial: { opacity: 0, y: 20 },
+                whileInView: { opacity: 1, y: 0 },
+                transition: { duration: 0.5, delay: index * 0.1 }
+              };
+              
+              return (
+                <motion.div
+                  key={testimonial.name}
+                  {...motionProps}
+                  className="bg-card p-8 rounded-2xl shadow-sm border border-border"
+                >
+                  <div className="flex items-center gap-1 mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                    ))}
                   </div>
-                  <div className="text-left">
-                    <div className="font-semibold text-sm">{testimonial.name}</div>
-                    <div className="text-muted-foreground text-xs">{testimonial.role}</div>
+                  <p className="text-muted-foreground mb-6 italic text-left">
+                    &ldquo;{testimonial.content}&rdquo;
+                  </p>
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center">
+                      <span className="text-primary font-semibold text-sm">
+                        {testimonial.name.split(' ').map(n => n[0]).join('')}
+                      </span>
+                    </div>
+                    <div className="text-left">
+                      <div className="font-semibold text-sm">{testimonial.name}</div>
+                      <div className="text-muted-foreground text-xs">{testimonial.role}</div>
+                    </div>
                   </div>
-                </div>
-              </motion.div>
-            ))}
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </div>
