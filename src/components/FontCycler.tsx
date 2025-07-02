@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { fontCombinations, FontCombination } from "@/data/fontCombinations";
 
 export default function FontCycler() {
@@ -9,7 +9,7 @@ export default function FontCycler() {
   const currentFont = fontCombinations[currentFontIndex];
 
   // Load Google Font dynamically
-  const loadGoogleFont = (combination: FontCombination) => {
+  const loadGoogleFont = useCallback((combination: FontCombination) => {
     // Remove existing font links
     const existingLinks = document.querySelectorAll('link[data-font-cycler]');
     existingLinks.forEach(link => link.remove());
@@ -21,29 +21,30 @@ export default function FontCycler() {
     link.rel = 'stylesheet';
     link.setAttribute('data-font-cycler', 'true');
     document.head.appendChild(link);
-  };
+  }, []);
 
   // Update CSS variables
-  const updateFontVariables = (combination: FontCombination) => {
+  const updateFontVariables = useCallback((combination: FontCombination) => {
     document.documentElement.style.setProperty('--font-heading', `"${combination.heading.family}", sans-serif`);
     document.documentElement.style.setProperty('--font-body', `"${combination.body.family}", sans-serif`);
     document.documentElement.style.setProperty('--font-heading-weight', combination.heading.weight);
     document.documentElement.style.setProperty('--font-body-weight', combination.body.weight);
-  };
+  }, []);
 
   // Cycle to next font
-  const cycleFont = () => {
-    const nextIndex = (currentFontIndex + 1) % fontCombinations.length;
-    setCurrentFontIndex(nextIndex);
-    const nextFont = fontCombinations[nextIndex];
-    
-    loadGoogleFont(nextFont);
-    updateFontVariables(nextFont);
+  const cycleFont = useCallback(() => {
+    setCurrentFontIndex(prevIndex => {
+      const nextIndex = (prevIndex + 1) % fontCombinations.length;
+      const nextFont = fontCombinations[nextIndex];
+      loadGoogleFont(nextFont);
+      updateFontVariables(nextFont);
+      return nextIndex;
+    });
     
     // Show display temporarily
     setShowDisplay(true);
     setTimeout(() => setShowDisplay(false), 2000);
-  };
+  }, [loadGoogleFont, updateFontVariables]);
 
   // Keyboard listener
   useEffect(() => {
@@ -62,7 +63,7 @@ export default function FontCycler() {
   useEffect(() => {
     loadGoogleFont(currentFont);
     updateFontVariables(currentFont);
-  }, [currentFont]);
+  }, [currentFont, loadGoogleFont, updateFontVariables]);
 
   return (
     <>

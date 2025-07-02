@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { colorSchemes, ColorScheme } from "@/data/colorSchemes";
 
 export default function ColorCycler() {
@@ -9,7 +9,7 @@ export default function ColorCycler() {
   const currentScheme = colorSchemes[currentColorIndex];
 
   // Update CSS variables
-  const updateColorVariables = (scheme: ColorScheme) => {
+  const updateColorVariables = useCallback((scheme: ColorScheme) => {
     const root = document.documentElement;
     root.style.setProperty('--color-primary', scheme.colors.primary);
     root.style.setProperty('--color-primary-hover', scheme.colors.primaryHover);
@@ -22,20 +22,21 @@ export default function ColorCycler() {
     root.style.setProperty('--color-border', scheme.colors.border);
     root.style.setProperty('--color-card', scheme.colors.card);
     root.style.setProperty('--color-card-foreground', scheme.colors.cardForeground);
-  };
+  }, []);
 
   // Cycle to next color scheme
-  const cycleColors = () => {
-    const nextIndex = (currentColorIndex + 1) % colorSchemes.length;
-    setCurrentColorIndex(nextIndex);
-    const nextScheme = colorSchemes[nextIndex];
-    
-    updateColorVariables(nextScheme);
+  const cycleColors = useCallback(() => {
+    setCurrentColorIndex(prevIndex => {
+      const nextIndex = (prevIndex + 1) % colorSchemes.length;
+      const nextScheme = colorSchemes[nextIndex];
+      updateColorVariables(nextScheme);
+      return nextIndex;
+    });
     
     // Show display temporarily
     setShowDisplay(true);
     setTimeout(() => setShowDisplay(false), 2000);
-  };
+  }, [updateColorVariables]);
 
   // Keyboard listener
   useEffect(() => {
@@ -53,7 +54,7 @@ export default function ColorCycler() {
   // Initialize with first color scheme
   useEffect(() => {
     updateColorVariables(currentScheme);
-  }, [currentScheme]);
+  }, [currentScheme, updateColorVariables]);
 
   return (
     <>
