@@ -1,6 +1,5 @@
 'use client';
-import { Award, Calendar, Target, Users, TrendingUp, Lightbulb, Sparkles, Trophy } from "lucide-react";
-import { motion } from "framer-motion";
+import { Calendar, Target, Users, TrendingUp, Lightbulb, Sparkles, Trophy } from "lucide-react";
 
 const skills = [
   {
@@ -72,11 +71,11 @@ export default function About() {
               My Story
             </h3>
             <div className="space-y-4" style={{ color: 'var(--color-muted-foreground)' }}>
-            Natalie Colbert is a Brand Marketing executive with over 14 years of agency-side experience spanning global creative, media, and product strategy. She's passionate about building world-class brands with sharp cultural insights, compelling narratives, and flawless execution, while empowering transparent, boundary-pushing teams.<br/><br/>
+            Natalie Colbert is a Brand Marketing executive with over 14 years of agency-side experience spanning global creative, media, and product strategy. She&apos;s passionate about building world-class brands with sharp cultural insights, compelling narratives, and flawless execution, while empowering transparent, boundary-pushing teams.<br/><br/>
             As Head of Strategy at Rosewood Creative, Natalie builds and leads the Strategy department, grounding all creative in deep cultural and consumer data. She oversees global marketing projects and drives performance marketing with robust test-and-learn frameworks.<br/><br/>
             Natalie has transformed marketing for diverse brands including Airbnb, Nike, Beats by Dre, Cash App, Unilever, Frito-Lay, Supergoop, and HexClad.<br/><br/>
-            Previously, as Strategy Director at a top WPP agency, she led integrated creative strategy for Unilever's Super Bowl debut and steered Southern California Edison's three-year digital transformation. At OMD in New York, as Media Strategy Supervisor, she managed paid media for the Frito-Lay portfolio, earning a Silver Effie for Lay's "Do Us A Flavor" and pioneering first-to-market activations.<br/><br/>
-            A former Division 1 tennis player and proud mom of two, Natalie's career began as a trend analyst, a cultural mindset that still fuels her work. She's a straight shooter who believes transparent partnership is key to building remarkable things.
+            Previously, as Strategy Director at a top WPP agency, she led integrated creative strategy for Unilever&apos;s Super Bowl debut and steered Southern California Edison&apos;s three-year digital transformation. At OMD in New York, as Media Strategy Supervisor, she managed paid media for the Frito-Lay portfolio, earning a Silver Effie for Lay&apos;s &quot;Do Us A Flavor&quot; and pioneering first-to-market activations.<br/><br/>
+            A former Division 1 tennis player and proud mom of two, Natalie&apos;s career began as a trend analyst, a cultural mindset that still fuels her work. She&apos;s a straight shooter who believes transparent partnership is key to building remarkable things.
             </div>
           </div>
 
@@ -128,11 +127,8 @@ export default function About() {
               
               <div className="space-y-12">
                 {experience.map((job, index) => (
-                  <motion.div
+                  <div
                     key={job.company}
-                    initial={{ opacity: 0, x: -40 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.6, delay: index * 0.1 }}
                     className="relative pl-20"
                   >
                     {/* Timeline Icon */}
@@ -195,7 +191,7 @@ export default function About() {
                       </div>
                       <p style={{ color: 'var(--color-muted-foreground)' }}>{job.description}</p>
                     </div>
-                  </motion.div>
+                  </div>
                 ))}
               </div>
             </div>
