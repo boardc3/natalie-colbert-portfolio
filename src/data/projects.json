@@ -281,7 +281,7 @@
           "content": [
             "Social Strategy & Rollout Plan",
             "Super Bowl Activation",
-            "Video: https://www.youtube.com/watch?v=AcXPlxXGiJ0"
+            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/AcXPlxXGiJ0\" title=\"Hellmann's Super Bowl Ad\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
           ]
         }
       ],
@@ -291,8 +291,7 @@
           "Social Strategy & Rollout Plan"
         ],
         "results": [
-          { "label": "Super Bowl Activation", "value": "Yes" },
-          { "label": "Video", "value": "https://www.youtube.com/watch?v=AcXPlxXGiJ0" }
+          { "label": "Super Bowl Activation", "value": "Yes" }
         ]
       }
     },
