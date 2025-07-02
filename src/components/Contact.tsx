@@ -1,16 +1,27 @@
 'use client';
 import { Mail, Linkedin, Star } from "lucide-react";
+import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Global Brand Team",
-    role: "Fortune 100 Client",
-    content: "Natalie&rsquo;s cultural insights and strategic thinking transformed our approach to Gen-Z marketing. Her campaigns consistently delivered above-benchmark performance across all metrics."
+    name: "J Smith",
+    role: "ECD at Rosewood Creative",
+    content: "Anyone who takes to Natalie for 5 minutes realizes she&apos;s smart, hard working, and knows what she&apos;s talking about. But what you might not see if you haven&apos;t had the opportunity to really be in the trenches with her, is how tireless she is in always trying to make things better."
   },
   {
-    name: "Creative Director",
-    role: "Agency Partner",
-    content: "Working with Natalie is a masterclass in strategic leadership. She has this unique ability to see the big picture while orchestrating flawless execution across every touchpoint."
+    name: "Chelsea Spann Motal",
+    role: "Group Account Director at Wunderman Thompson",
+    content: "Natalie was the person you always wanted in the room. She&apos;s that rare kind of leader who brings honesty, direction, and heart to every ask. Natalie doesn&apos;t just answer the brief, she elevates it. She pushes teams to pause and ask the bigger questions: Who are we really speaking to? What do they need? What do they believe in? Her strategic thinking is consistently thoughtful, culturally attuned, and future-facing. She protects the soul of the brand while staying equally committed to the people it serves."
+  },
+  {
+    name: "Matt Duckor",
+    role: "Head of Content at HexClad",
+    content: "Natalie is a top-notch strategist and marketing mind. She brilliantly architected our Super Bowl 2025 campaign for HexClad to drive incredible return on our investment from the linear spot. But even better than that was her approach for our social campaign that played out across TikTok and Instagram to the tune of over 60M views. I&apos;d work with Natalie again in a heartbeat."
+  },
+  {
+    name: "Julia Chesky",
+    role: "Social & Content Strategist",
+    content: "Natalie creates a wonderful space for people to find their voice and contribute meaningfully. She brings clarity, encourages smart risk-taking, and knows how to guide a team without ever stifling originality. She also has a sharp understanding of how brands should show up not just on social, but across every touchpoint. It&apos;s not just about what to post, but about why it matters for the brand and the audience."
   }
 ];
 
@@ -20,21 +31,29 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Testimonials */}
         <div className="text-center">
-          <h3 className="text-2xl font-semibold mb-12 text-muted-foreground">
+          <motion.h3 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="text-2xl font-semibold mb-12 text-muted-foreground"
+          >
             What clients and collaborators say
-          </h3>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {testimonials.map((testimonial) => (
-              <div
+          </motion.h3>
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {testimonials.map((testimonial, index) => (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
                 key={testimonial.name}
-                className="bg-card p-6 rounded-2xl shadow-sm border border-border"
+                className="bg-card p-8 rounded-2xl shadow-sm border border-border"
               >
                 <div className="flex items-center gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <p className="text-muted-foreground mb-6 italic">
+                <p className="text-muted-foreground mb-6 italic text-left">
                   &ldquo;{testimonial.content}&rdquo;
                 </p>
                 <div className="flex items-center gap-3">
@@ -43,12 +62,12 @@ export default function Contact() {
                       {testimonial.name.split(' ').map(n => n[0]).join('')}
                     </span>
                   </div>
-                  <div>
+                  <div className="text-left">
                     <div className="font-semibold text-sm">{testimonial.name}</div>
                     <div className="text-muted-foreground text-xs">{testimonial.role}</div>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>
