@@ -1,27 +1,27 @@
 'use client';
-import { Mail, Linkedin, Star } from "lucide-react";
+import { Star } from "lucide-react";
 import { motion } from "framer-motion";
 
 const testimonials = [
   {
     name: "J Smith",
     role: "ECD at Rosewood Creative",
-    content: "Anyone who takes to Natalie for 5 minutes realizes she&apos;s smart, hard working, and knows what she&apos;s talking about. But what you might not see if you haven&apos;t had the opportunity to really be in the trenches with her, is how tireless she is in always trying to make things better."
+    content: "Anyone who takes to Natalie for 5 minutes realizes she's smart, hard working, and knows what she's talking about. But what you might not see if you haven't had the opportunity to really be in the trenches with her, is how tireless she is in always trying to make things better."
   },
   {
     name: "Chelsea Spann Motal",
     role: "Group Account Director at Wunderman Thompson",
-    content: "Natalie was the person you always wanted in the room. She&apos;s that rare kind of leader who brings honesty, direction, and heart to every ask. Natalie doesn&apos;t just answer the brief, she elevates it. She pushes teams to pause and ask the bigger questions: Who are we really speaking to? What do they need? What do they believe in? Her strategic thinking is consistently thoughtful, culturally attuned, and future-facing. She protects the soul of the brand while staying equally committed to the people it serves."
+    content: "Natalie was the person you always wanted in the room. She's that rare kind of leader who brings honesty, direction, and heart to every ask. Natalie doesn't just answer the brief, she elevates it. She pushes teams to pause and ask the bigger questions: Who are we really speaking to? What do they need? What do they believe in? Her strategic thinking is consistently thoughtful, culturally attuned, and future-facing. She protects the soul of the brand while staying equally committed to the people it serves."
   },
   {
     name: "Matt Duckor",
     role: "Head of Content at HexClad",
-    content: "Natalie is a top-notch strategist and marketing mind. She brilliantly architected our Super Bowl 2025 campaign for HexClad to drive incredible return on our investment from the linear spot. But even better than that was her approach for our social campaign that played out across TikTok and Instagram to the tune of over 60M views. I&apos;d work with Natalie again in a heartbeat."
+    content: "Natalie is a top-notch strategist and marketing mind. She brilliantly architected our Super Bowl 2025 campaign for HexClad to drive incredible return on our investment from the linear spot. But even better than that was her approach for our social campaign that played out across TikTok and Instagram to the tune of over 60M views. I'd work with Natalie again in a heartbeat."
   },
   {
     name: "Julia Chesky",
     role: "Social & Content Strategist",
-    content: "Natalie creates a wonderful space for people to find their voice and contribute meaningfully. She brings clarity, encourages smart risk-taking, and knows how to guide a team without ever stifling originality. She also has a sharp understanding of how brands should show up not just on social, but across every touchpoint. It&apos;s not just about what to post, but about why it matters for the brand and the audience."
+    content: "Natalie creates a wonderful space for people to find their voice and contribute meaningfully. She brings clarity, encourages smart risk-taking, and knows how to guide a team without ever stifling originality. She also has a sharp understanding of how brands should show up not just on social, but across every touchpoint. It's not just about what to post, but about why it matters for the brand and the audience."
   }
 ];
 
