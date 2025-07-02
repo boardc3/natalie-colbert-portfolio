@@ -1,5 +1,6 @@
 'use client';
 import { Calendar, Target, Users, TrendingUp, Lightbulb, Sparkles, Trophy } from "lucide-react";
+import { motion } from "framer-motion";
 
 const skills = [
   {
@@ -85,9 +86,12 @@ export default function About() {
               Core Expertise
             </h3>
             <div className="grid grid-cols-1 gap-4">
-              {skills.map((skill) => (
-                <div
+              {skills.map((skill, index) => (
+                <motion.div
                   key={skill.name}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="p-4 rounded-xl border"
                   style={{ 
                     backgroundColor: 'var(--color-card)', 
@@ -104,7 +108,7 @@ export default function About() {
                     <h4 className="font-semibold" style={{ color: 'var(--color-card-foreground)' }}>{skill.name}</h4>
                   </div>
                   <p className="text-sm" style={{ color: 'var(--color-muted-foreground)' }}>{skill.description}</p>
-                </div>
+                </motion.div>
               ))}
             </div>
           </div>
@@ -127,8 +131,11 @@ export default function About() {
               
               <div className="space-y-12">
                 {experience.map((job, index) => (
-                  <div
+                  <motion.div
                     key={job.company}
+                    initial={{ opacity: 0, x: -40 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.6, delay: index * 0.1 }}
                     className="relative pl-20"
                   >
                     {/* Timeline Icon */}
@@ -191,7 +198,7 @@ export default function About() {
                       </div>
                       <p style={{ color: 'var(--color-muted-foreground)' }}>{job.description}</p>
                     </div>
-                  </div>
+                  </motion.div>
                 ))}
               </div>
             </div>
