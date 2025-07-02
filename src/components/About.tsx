@@ -28,33 +28,33 @@ const skills = [
 const experience = [
   {
     company: "Rosewood Creative",
-    role: "Brand Marketing Strategist",
-    period: "2022 - Present",
-    description: "Leading strategic initiatives for Fortune 100 brands, developing integrated campaigns that drive cultural conversation and measurable business results.",
+    role: "Head of Strategy",
+    period: "2022-Present",
+    description: "",
     icon: Trophy,
     highlight: true
   },
   {
-    company: "Havas Worldwide",
-    role: "Senior Strategist",
-    period: "2018 - 2022",
-    description: "Spearheaded multi-platform campaigns for global brands, specializing in Gen-Z engagement and performance optimization across social platforms.",
+    company: "WPP (Wunderman Thompson)",
+    role: "Strategy Director\nPreviously Associate Director of Strategy & Senior Strategist",
+    period: "2017-2022",
+    description: "",
     icon: Sparkles,
     highlight: false
   },
   {
-    company: "Publicis",
-    role: "Strategy Director",
-    period: "2015 - 2018",
-    description: "Developed brand positioning and creative strategies for consumer brands, with focus on digital transformation and emerging media channels.",
+    company: "OMD",
+    role: "Media Strategy Supervisor",
+    period: "2013--2015",
+    description: "",
     icon: Target,
     highlight: false
   },
   {
-    company: "Ogilvy & Mather",
-    role: "Account Strategist",
-    period: "2011 - 2015",
-    description: "Built foundational expertise in brand strategy and consumer insights, working across automotive, lifestyle, and technology categories.",
+    company: "Havas",
+    role: "Strategist",
+    period: "2011--2013",
+    description: "",
     icon: TrendingUp,
     highlight: false
   }
@@ -64,16 +64,6 @@ export default function About() {
   return (
     <section id="about" className="py-24" style={{ backgroundColor: 'var(--color-background)' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-6" style={{ color: 'var(--color-foreground)' }}>
-            About Me
-          </h2>
-          <p className="text-xl max-w-3xl mx-auto" style={{ color: 'var(--color-muted-foreground)' }}>
-            I bring an athlete&rsquo;s mindset to marketing – disciplined, competitive, and always focused on winning. 
-            With 14+ years exclusively agency-side, I&rsquo;ve mastered the art of turning big brand visions into 
-            campaigns that don&rsquo;t just perform, they captivate.
-          </p>
-        </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-start mb-20">
           {/* Personal Story */}
@@ -82,20 +72,11 @@ export default function About() {
               My Story
             </h3>
             <div className="space-y-4" style={{ color: 'var(--color-muted-foreground)' }}>
-              <p>
-                My journey started on the tennis courts as a D1 athlete, where I learned that success comes from 
-                relentless preparation, strategic thinking, and the ability to perform under pressure. These same 
-                principles now drive my approach to brand marketing.
-              </p>
-              <p>
-                For over 14 years, I&rsquo;ve been exclusively agency-side, which means I&rsquo;ve seen every type of 
-                challenge, worked with every type of client, and learned to deliver exceptional results regardless 
-                of constraints. I thrive in the fast-paced, high-stakes environment where creativity meets commerce.
-              </p>
-              <p>
-                As a mom of two and a trend analyst at heart, I bring a unique perspective to understanding what 
-                drives consumer behavior. I don&rsquo;t just follow trends – I help create them.
-              </p>
+            Natalie Colbert is a Brand Marketing executive with over 14 years of agency-side experience spanning global creative, media, and product strategy. She's passionate about building world-class brands with sharp cultural insights, compelling narratives, and flawless execution, while empowering transparent, boundary-pushing teams.<br/><br/>
+            As Head of Strategy at Rosewood Creative, Natalie builds and leads the Strategy department, grounding all creative in deep cultural and consumer data. She oversees global marketing projects and drives performance marketing with robust test-and-learn frameworks.<br/><br/>
+            Natalie has transformed marketing for diverse brands including Airbnb, Nike, Beats by Dre, Cash App, Unilever, Frito-Lay, Supergoop, and HexClad.<br/><br/>
+            Previously, as Strategy Director at a top WPP agency, she led integrated creative strategy for Unilever's Super Bowl debut and steered Southern California Edison's three-year digital transformation. At OMD in New York, as Media Strategy Supervisor, she managed paid media for the Frito-Lay portfolio, earning a Silver Effie for Lay's "Do Us A Flavor" and pioneering first-to-market activations.<br/><br/>
+            A former Division 1 tennis player and proud mom of two, Natalie's career began as a trend analyst, a cultural mindset that still fuels her work. She's a straight shooter who believes transparent partnership is key to building remarkable things.
             </div>
           </div>
 

@@ -19,7 +19,7 @@ const campaigns: Campaign[] = [
     overview: "Social-first campaign featuring Liza Koshy as Chief Super Officer, revolutionizing sunscreen culture with 6.5B earned impressions.",
     image: "/campaigns/supergoop.png",
     slug: "supergoop-feel-super",
-    category: "Social Campaign"
+    category: "360 Campaign"
   },
   {
     title: "Area 51 Super Bowl Campaign",
@@ -43,7 +43,7 @@ const campaigns: Campaign[] = [
     overview: "360-degree launch campaign for all-electric 500e, generating 2.5M website conversions and 700M impressions.",
     image: "/campaigns/fiat.png",
     slug: "fiat-la-dolce-vita",
-    category: "Launch Campaign"
+    category: "GTM Campaign"
   },
   {
     title: "Weirdly Specific TikTok Series",
@@ -59,7 +59,7 @@ const campaigns: Campaign[] = [
     overview: "Award-winning TikTok strategy embracing sponsored content awkwardness, earning Webby and Silver Pencil awards.",
     image: "/campaigns/beats.png",
     slug: "beats-authentic-tiktok",
-    category: "Content Strategy"
+    category: "Influencer Strategy"
   },
   {
     title: "Make Taste, Not Waste",

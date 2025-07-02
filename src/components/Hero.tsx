@@ -122,7 +122,7 @@ export default function Hero() {
               style={{ borderColor: 'var(--color-card)' }}
             >
               <Image
-                src="/profile-placeholder.png"
+                src="/profile.jpg"
                 alt="Portrait of Natalie Colbert"
                 fill
                 sizes="384px"
