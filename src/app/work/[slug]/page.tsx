@@ -92,7 +92,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                     </h2>
                     <div className="prose prose-lg max-w-none">
                       {section.content.map((c, j) => {
-                        if (typeof c === 'string' && c.trim().startsWith('<iframe')) {
+                        if (typeof c === 'string' && c.trim().startsWith('<')) {
                           return (
                             <div key={j} className="video-embed aspect-w-16 aspect-h-9 w-full my-6">
                               <div
