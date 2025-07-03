@@ -100,7 +100,7 @@
     "client": "Cash App",
     "tag": "Growth Marketing",
     "summary": "Strategic repositioning from peer-to-peer payments to comprehensive banking solution, achieving 19% lower CPA and establishing Cash App as the go-to financial platform for young adults.",
-    "image": "/campaigns/cashapp.png",
+    "image": "/Assets/CashApp/Cannes G&J_Presentation Image_FINAL V2.jpg",
     "header": {
       "bg": "gray-50",
       "darkBg": "gray-900"
@@ -128,7 +128,10 @@
           "content": [
             "Developed a systematic approach to testing creative, messaging, and targeting across 4 growth marketing cycles, with each cycle surpassing previous performance records.",
             "Created attention-grabbing creative that spoke directly to Gen-Z's financial aspirations, using platform-native formats and unexpected messaging to drive engagement and conversions.",
-            "Optimized performance across Meta and TikTok platforms, adapting creative and messaging for each platform's unique audience behaviors and conversion patterns."
+            "Optimized performance across Meta and TikTok platforms, adapting creative and messaging for each platform's unique audience behaviors and conversion patterns.",
+            "<div class=\"video-embed\"><video controls src=\"/Assets/CashApp/ct~RW_gp~Banking_f~Creator_a~Upmarket_c~Livia_vp~Simplicity_h~FunMoney_s~4x5.mp4\"></video></div>",
+            "<div class=\"video-embed\"><video controls src=\"/Assets/CashApp/ct~RW_gp~Banking_f~Creator_a~Upmarket_c~Nikoli_vp~Simplicity_h~SeparateAcct_s~4x5.mp4\"></video></div>",
+            "<div class=\"video-embed\"><video controls src=\"/Assets/CashApp/ct~RW_gp~Card_f~Creator_a~Upmarket_c~Spock_vp~SafeSecure_h~LostCard_s~4x5.mp4\"></video></div>"
           ]
         }
       ],
@@ -307,7 +310,7 @@
     "client": "HexClad",
     "tag": "Super Bowl",
     "summary": "For HexClad's first-ever debut at the Super Bowl, we didn't just launch an ad—we engineered a viral phenomenon that established HexClad as advanced, out-of-this-world cooking technology.",
-    "image": "/campaigns/hexclad.png",
+    "image": "/Assets/HexClad/coverimage.jpg",
     "header": {
       "bg": "gray-50",
       "darkBg": "gray-900"
@@ -334,7 +337,10 @@
           "content": [
             "Created an elaborate conspiracy theory around Gordon Ramsay's mysterious activities at Area 51, building intrigue and speculation across social media platforms.",
             "Leveraged influencer storytelling to fuel internet speculation and organic conversation, creating authentic buzz around the mystery without revealing the brand connection.",
-            "Timed the big reveal perfectly for maximum Super Bowl impact, connecting all the mystery elements to HexClad's advanced cooking technology in a memorable, shareable moment."
+            "Timed the big reveal perfectly for maximum Super Bowl impact, connecting all the mystery elements to HexClad's advanced cooking technology in a memorable, shareable moment.",
+            "<div class=\"video-embed\"><video controls src=\"/Assets/HexClad/Thats an Order Up Social Video.mp4\"></video></div>",
+            "<div class=\"video-embed\"><video controls src=\"/Assets/HexClad/Petes Mom Social Video.mp4\"></video></div>",
+            "<div class=\"video-embed\"><video controls src=\"/Assets/HexClad/Influencer Kit Video.mp4\"></video></div>"
           ]
         }
       ],
@@ -364,7 +370,7 @@
     "client": "Supergoop!",
     "tag": "Social Campaign",
     "summary": "Revolutionized sunscreen culture with a social-first campaign featuring Liza Koshy as Chief Super Officer, blurring IRL and URL boundaries to build 'Super' equity and drive awareness for the crucial Summer buying season.",
-    "image": "/assets/Supergoop/cover-image.jpeg",
+    "image": "/Assets/Supergoop/cover-image.jpeg",
     "header": {
       "bg": "gray-50",
       "darkBg": "gray-900"
@@ -391,9 +397,9 @@
             "Strategic selection of Liza Koshy as Chief Super Officer, leveraging her authentic brand alignment and massive social media following to create credible, engaging content.",
             "Developed content that blurred the lines between online and offline experiences, creating shareable moments that drove organic engagement and brand awareness.",
             "Coordinated launch across multiple channels and touchpoints, ensuring consistent messaging while maximizing reach and impact during peak summer buying season.",
-            "<div class=\"video-embed\"><video controls poster=\"/assets/Supergoop/Cover image.jpeg\" src=\"/assets/Supergoop/Performance Ads/ROSEWOOD_SuperGoop_Glowscreen_Cinemagraph_9x16_v3_source.mp4\"></video></div>",
-            "<div class=\"video-embed\"><video controls poster=\"/assets/Supergoop/Cover image.jpeg\" src=\"/assets/Supergoop/Social Videos/Feel_Super_Hero_Spot_46_9x16_CAPTIONS.mp4\"></video></div>",
-            "<div class=\"video-embed\"><video controls poster=\"/assets/Supergoop/Cover image.jpeg\" src=\"/assets/Supergoop/Super Product/GLASSES MOTION.mp4\"></video></div>"
+            "<div class=\"video-embed\"><video controls src=\"/Assets/Supergoop/Performance Ads/ROSEWOOD_SuperGoop_Glowscreen_Cinemagraph_9x16_v3_source.mp4\"></video></div>",
+            "<div class=\"video-embed\"><video controls src=\"/Assets/Supergoop/Social Videos/Feel_Super_Hero_Spot_46_9x16_CAPTIONS.mp4\"></video></div>",
+            "<div class=\"video-embed\"><video controls src=\"/Assets/Supergoop/Super Product/GLASSES MOTION.mp4\"></video></div>"
           ]
         }
       ],

@@ -17,7 +17,7 @@ const campaigns: Campaign[] = [
     title: "Feel Super Campaign",
     client: "Supergoop!",
     overview: "Social-first campaign featuring Liza Koshy as Chief Super Officer, revolutionizing sunscreen culture with 6.5B earned impressions.",
-    image: "/campaigns/supergoop.png",
+    image: "/Assets/Supergoop/cover-image.jpeg",
     slug: "supergoop-feel-super",
     category: "360 Campaign"
   },
@@ -25,7 +25,7 @@ const campaigns: Campaign[] = [
     title: "Area 51 Super Bowl Campaign",
     client: "HexClad",
     overview: "Viral conspiracy theory campaign for Super Bowl debut, generating 15B earned impressions and 28% increase in media efficiency.",
-    image: "/campaigns/hexclad.png",
+    image: "/Assets/HexClad/coverimage.jpg",
     slug: "hexclad-area-51",
     category: "Super Bowl"
   },
@@ -33,7 +33,7 @@ const campaigns: Campaign[] = [
     title: "Financial Freedom Growth Marketing",
     client: "Cash App",
     overview: "Scalable growth marketing system for Gen-Z banking pivot, achieving 19% lower CPA across multiple cycles.",
-    image: "/campaigns/cashapp.png",
+    image: "/Assets/CashApp/Cannes G&J_Presentation Image_FINAL V2.jpg",
     slug: "cashapp-financial-freedom",
     category: "Growth Marketing"
   },
