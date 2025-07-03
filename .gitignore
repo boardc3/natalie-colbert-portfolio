@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Large video files
+public/Assets/HexClad/Influencer Kit Video.mp4
+public/Assets/HexClad/Petes Mom Social Video.mp4
+public/Assets/CashApp/ct~RW_gp~Banking_f~Creator_a~Upmarket_c~Nikoli_vp~Simplicity_h~SeparateAcct_s~4x5.mp4
+public/Assets/Fiat/Fiat_60_16x9_Master_20240408.mov
