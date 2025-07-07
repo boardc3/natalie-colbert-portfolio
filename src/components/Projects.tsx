@@ -33,7 +33,7 @@ const campaigns: Campaign[] = [
     title: "Financial Freedom Growth Marketing",
     client: "Cash App",
     overview: "Scalable growth marketing system for Gen-Z banking pivot, achieving 19% lower CPA across multiple cycles.",
-    image: "/Assets/CashApp/Cannes G&J_Presentation Image_FINAL V2.jpg",
+    image: "/Assets/covers/cash.png",
     slug: "cashapp-financial-freedom",
     category: "Growth Marketing"
   },
@@ -41,7 +41,7 @@ const campaigns: Campaign[] = [
     title: "La Dolce Vita Launch Campaign",
     client: "Fiat",
     overview: "360-degree launch campaign for all-electric 500e, generating 2.5M website conversions and 700M impressions.",
-    image: "/campaigns/fiat.png",
+    image: "/Assets/covers/fiat.png",
     slug: "fiat-la-dolce-vita",
     category: "GTM Campaign"
   },
@@ -49,7 +49,7 @@ const campaigns: Campaign[] = [
     title: "Weirdly Specific TikTok Series",
     client: "Airbnb",
     overview: "Creative strategy connecting TikTok subcommunities to unique Stays, from TravelTok to BookTok and beyond.",
-    image: "/campaigns/airbnb.png",
+    image: "/Assets/covers/airbnb.png",
     slug: "airbnb-weirdly-specific",
     category: "TikTok Strategy"
   },
@@ -57,7 +57,7 @@ const campaigns: Campaign[] = [
     title: "Authentic TikTok Content Series",
     client: "Beats by Dre",
     overview: "Award-winning TikTok strategy embracing sponsored content awkwardness, earning Webby and Silver Pencil awards.",
-    image: "/campaigns/beats.png",
+    image: "/Assets/covers/beats.png",
     slug: "beats-authentic-tiktok",
     category: "Influencer Strategy"
   },
@@ -65,7 +65,7 @@ const campaigns: Campaign[] = [
     title: "Make Taste, Not Waste",
     client: "Hellmann's",
     overview: "Super Bowl campaign transforming Hellmann's from condiment to meal solution, targeting food waste and fridge blindness.",
-    image: "/campaigns/hellmanns.png",
+    image: "/Assets/covers/hellmans.png",
     slug: "hellmanns-make-taste-not-waste",
     category: "Super Bowl"
   },
@@ -73,7 +73,7 @@ const campaigns: Campaign[] = [
     title: "Gin & Juice Launch",
     client: "Gin & Juice",
     overview: "Strategic launch campaign for Snoop Dogg's premium beverage brand, focusing on cultural authenticity and market positioning.",
-    image: "/campaigns/gin-juice.png",
+    image: "/Assets/CashApp/Cannes G&J_Presentation Image_FINAL V2.jpg",
     slug: "gin-juice-launch",
     category: "Brand Launch"
   }

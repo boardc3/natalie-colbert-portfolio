@@ -57,8 +57,8 @@ export default function Hero() {
               className="relative inline-block px-4 py-2 rounded-lg font-bold"
               style={{ backgroundColor: 'var(--color-secondary)', color: 'var(--color-primary)' }}
             >
-              14 years dedicated to building brands
-            </span>. 
+              14 years dedicated to building brands.
+            </span>
             Think of me as a{" "}
             <em className="font-bold not-italic" style={{ color: 'var(--color-primary)' }}>builder with taste</em> – I thrive on crafting big visions and then meticulously 
             designing the systems to bring them to{" "}
