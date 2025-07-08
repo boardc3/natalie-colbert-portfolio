@@ -1,5 +1,4 @@
 'use client';
-import { Star } from "lucide-react";
 import { motion as m } from "framer-motion";
 
 const testimonials = [
@@ -52,11 +51,6 @@ export default function Contact() {
                   {...motionProps}
                   className="bg-card p-8 rounded-2xl shadow-sm border border-border"
                 >
-                  <div className="flex items-center gap-1 mb-4">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    ))}
-                  </div>
                   <p className="text-muted-foreground mb-6 italic text-left">
                     &ldquo;{testimonial.content}&rdquo;
                   </p>

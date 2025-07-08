@@ -5,7 +5,7 @@
     "client": "Airbnb",
     "tag": "TikTok Strategy",
     "summary": "Creative strategy connecting TikTok's unique subcommunities to Stays that represent them, creating 'Weirdly Specific' lists that paired unique Airbnbs with equally unique TikTok communities.",
-    "image": "/campaigns/airbnb.png",
+    "image": "/Assets/covers/airbnb.png",
     "header": {
       "bg": "gray-50",
       "darkBg": "gray-900"
@@ -30,7 +30,8 @@
           "content": [
             "Strategy/ Leadership",
             "Team Quarterback",
-            "Testing Roadmap Development + Analysis"
+            "Testing Roadmap Development + Analysis",
+            "<iframe width=\"315\" height=\"560\" src=\"https://www.youtube.com/embed/m-iUSMLuWCk\" title=\"Airbnb Campaign Video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
           ]
         }
       ],
@@ -57,7 +58,7 @@
     "client": "Beats by Dre",
     "tag": "Content Strategy",
     "summary": "Defied norms on TikTok by embracing the inherent awkwardness of sponsored content, making it obvious and highly entertaining through self-awareness and subversion.",
-    "image": "/campaigns/beats.png",
+    "image": "/Assets/covers/beats.png",
     "header": {
       "bg": "gray-50",
       "darkBg": "gray-900"
@@ -74,6 +75,13 @@
           "heading": "Strategic Solution",
           "content": [
             "Our strategy embraced the inherent awkwardness of sponsored content, making it obvious – and highly entertaining. We leveraged self-awareness and subversion, directly speaking to the platform's native behavior. This unconventional content series didn't just cut through the noise; it earned a Webby and a Silver Pencil at The One Show, proving that realness triumphs."
+          ]
+        },
+        {
+          "heading": "Campaign Execution",
+          "content": [
+            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XW40qQdxbIg\" title=\"Beats by Dre Campaign Video 1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XjuCPfC5fgQ\" title=\"Beats by Dre Campaign Video 2\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
           ]
         }
       ],
@@ -100,7 +108,7 @@
     "client": "Cash App",
     "tag": "Growth Marketing",
     "summary": "Strategic repositioning from peer-to-peer payments to comprehensive banking solution, achieving 19% lower CPA and establishing Cash App as the go-to financial platform for young adults.",
-    "image": "/Assets/CashApp/Cannes G&J_Presentation Image_FINAL V2.jpg",
+    "image": "/Assets/covers/cash.png",
     "header": {
       "bg": "gray-50",
       "darkBg": "gray-900"
@@ -129,8 +137,9 @@
             "Developed a systematic approach to testing creative, messaging, and targeting across 4 growth marketing cycles, with each cycle surpassing previous performance records.",
             "Created attention-grabbing creative that spoke directly to Gen-Z's financial aspirations, using platform-native formats and unexpected messaging to drive engagement and conversions.",
             "Optimized performance across Meta and TikTok platforms, adapting creative and messaging for each platform's unique audience behaviors and conversion patterns.",
-            "<div class=\"video-embed\"><video controls src=\"/Assets/CashApp/ct~RW_gp~Banking_f~Creator_a~Upmarket_c~Livia_vp~Simplicity_h~FunMoney_s~4x5.mp4\"></video></div>",
-            "<div class=\"video-embed\"><video controls src=\"/Assets/CashApp/ct~RW_gp~Card_f~Creator_a~Upmarket_c~Spock_vp~SafeSecure_h~LostCard_s~4x5.mp4\"></video></div>"
+            "<iframe width=\"315\" height=\"560\" src=\"https://www.youtube.com/embed/sC6lKznLXSc\" title=\"Cash App Campaign Video 1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+            "<iframe width=\"315\" height=\"560\" src=\"https://www.youtube.com/embed/4xLFgFyM6hE\" title=\"Cash App Campaign Video 2\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+            "<iframe width=\"315\" height=\"560\" src=\"https://www.youtube.com/embed/AU3tTmrExkA\" title=\"Cash App Campaign Video 3\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
           ]
         }
       ],
@@ -160,7 +169,7 @@
     "client": "Fiat",
     "tag": "Launch Campaign",
     "summary": "360-degree launch campaign for the all-electric Fiat 500e, translating 125+ years of European heritage into compelling American narrative by positioning 'Italian-ness' as a universal way of appreciating life's finer details.",
-    "image": "/campaigns/fiat.png",
+    "image": "/Assets/covers/fiat.png",
     "header": {
       "bg": "gray-50",
       "darkBg": "gray-900"
@@ -177,7 +186,8 @@
         {
           "heading": "Campaign Execution",
           "content": [
-            "I led the strategic development and comprehensive orchestration of this 360-degree launch campaign, collaborating seamlessly with media, PR, and the in-house Fiat brand, sales, and product teams to ensure flawless go-to-market execution across every touchpoint."
+            "I led the strategic development and comprehensive orchestration of this 360-degree launch campaign, collaborating seamlessly with media, PR, and the in-house Fiat brand, sales, and product teams to ensure flawless go-to-market execution across every touchpoint.",
+            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ehejgaM7Uhw\" title=\"Fiat Campaign Video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
           ]
         }
       ],
@@ -231,7 +241,8 @@
           "content": [
             "Brand Launch Strategy",
             "Cultural Positioning",
-            "Market Rollout"
+            "Market Rollout",
+            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wTMfZGyqQQc\" title=\"Gin & Juice Campaign Video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
           ]
         }
       ],
@@ -258,7 +269,7 @@
     "client": "Hellmann's",
     "tag": "Super Bowl",
     "summary": "Transformed Hellmann's from just a condiment to essential ingredient that helps turn food waste into delicious meals, targeting Millennials' hate of food waste and 'Fridge Blindness'.",
-    "image": "/campaigns/hellmanns.png",
+    "image": "/Assets/covers/hellmans.png",
     "header": {
       "bg": "gray-50",
       "darkBg": "gray-900"
@@ -337,7 +348,7 @@
             "Created an elaborate conspiracy theory around Gordon Ramsay's mysterious activities at Area 51, building intrigue and speculation across social media platforms.",
             "Leveraged influencer storytelling to fuel internet speculation and organic conversation, creating authentic buzz around the mystery without revealing the brand connection.",
             "Timed the big reveal perfectly for maximum Super Bowl impact, connecting all the mystery elements to HexClad's advanced cooking technology in a memorable, shareable moment.",
-            "<div class=\"video-embed\"><video controls src=\"/Assets/HexClad/Thats an Order Up Social Video.mp4\"></video></div>"
+            "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8BjncVX-3dg\" title=\"HexClad Super Bowl Commercial\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
           ]
         }
       ],
@@ -394,8 +405,8 @@
             "Strategic selection of Liza Koshy as Chief Super Officer, leveraging her authentic brand alignment and massive social media following to create credible, engaging content.",
             "Developed content that blurred the lines between online and offline experiences, creating shareable moments that drove organic engagement and brand awareness.",
             "Coordinated launch across multiple channels and touchpoints, ensuring consistent messaging while maximizing reach and impact during peak summer buying season.",
-            "<div class=\"video-embed\"><video controls src=\"/Assets/Supergoop/Performance Ads/ROSEWOOD_SuperGoop_Glowscreen_Cinemagraph_9x16_v3_source.mp4\"></video></div>",
-            "<div class=\"video-embed\"><video controls src=\"/Assets/Supergoop/Super Product/GLASSES MOTION.mp4\"></video></div>"
+            "<iframe width=\"315\" height=\"560\" src=\"https://www.youtube.com/embed/XWUJ6UAlIHU\" title=\"Supergoop Campaign Video 1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+            "<iframe width=\"315\" height=\"560\" src=\"https://www.youtube.com/embed/VBPmL-eysjo\" title=\"Supergoop Campaign Video 2\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
           ]
         }
       ],
